@@ -1,0 +1,6 @@
+framework module Adsum {
+  umbrella header "Adsum.h"
+
+  export *
+  module * { export * }
+}
