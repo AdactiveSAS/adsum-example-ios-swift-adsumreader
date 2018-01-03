@@ -46,7 +46,6 @@ class ViewController: UIViewController, ADSMapDelegate {
         })
     }
     
-    
     func displayAllPois(){
         if dataManager != nil {
             for poi in (dataManager?.poiRepository.objects)! {
@@ -66,9 +65,5 @@ class ViewController: UIViewController, ADSMapDelegate {
             mapView?.setCurrentFloor(levels?.first as! NSNumber);
         }
     }
-    
-    
-
-
 }
 
