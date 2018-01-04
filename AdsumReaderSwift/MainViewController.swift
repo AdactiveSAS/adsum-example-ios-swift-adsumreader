@@ -7,13 +7,26 @@
 //
 
 import UIKit
+import Adsum
+import SWXMLHash
+
+protocol MapButtonsDelegate{
+    func floorChangeButtonClicked(floor: Int)
+}
 
 class MainViewController: UIViewController {
-
+    
+    
+    @IBOutlet weak var mapContainerView: UIView!
+    var mapDelegate : MapButtonsDelegate?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        mapDelegate = MapViewController()
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,15 +34,21 @@ class MainViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    @IBAction func floorChangeButton(_ sender: UIBarButtonItem) {
+        
+        if (mapDelegate != nil){
+            mapDelegate?.floorChangeButtonClicked(floor: 1)
+        }
+        
     }
-    */
+    
+    
+
+//     //MARK: - Navigation
+//
+//     //In a storyboard-based application, you will often want to do a little preparation before navigation
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//
+//    }
 
 }

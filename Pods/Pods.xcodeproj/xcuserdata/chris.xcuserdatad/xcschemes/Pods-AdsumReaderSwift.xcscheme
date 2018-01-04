@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DF7C6D6DD0DDB42AC2AE02229FB37FD8"
+               BlueprintIdentifier = "3FB38BEF62CFB762DEA248DDFB2B2006"
                BuildableName = "Pods_AdsumReaderSwift.framework"
                BlueprintName = "Pods-AdsumReaderSwift"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -47,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DF7C6D6DD0DDB42AC2AE02229FB37FD8"
+            BlueprintIdentifier = "3FB38BEF62CFB762DEA248DDFB2B2006"
             BuildableName = "Pods_AdsumReaderSwift.framework"
             BlueprintName = "Pods-AdsumReaderSwift"
             ReferencedContainer = "container:Pods.xcodeproj">
