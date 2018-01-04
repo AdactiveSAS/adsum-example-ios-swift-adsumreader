@@ -80,11 +80,59 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="SgM-if-JYX"/>
                     </view>
+                    <connections>
+                        <outlet property="loadSavedMapButton" destination="HGM-95-hlJ" id="oum-jp-xGk"/>
+                        <segue destination="TZi-h1-zem" kind="show" identifier="segueToMain" id="XKC-iR-pha"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EfF-6b-XKH" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="a8k-W2-eOJ" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="973.60000000000002" y="95.802098950524751"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Scf-Xr-4FO">
+            <objects>
+                <navigationController id="TZi-h1-zem" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="S43-ni-YqJ">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="S5x-f5-VXb" kind="relationship" relationship="rootViewController" id="DcQ-fk-vlH"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QRs-rn-doQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1820" y="96"/>
+        </scene>
+        <!--Main View Controller-->
+        <scene sceneID="qnP-P1-VKd">
+            <objects>
+                <viewController id="S5x-f5-VXb" customClass="MainViewController" customModule="AdsumReaderSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="co4-RD-rNy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LOL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9s0-RT-sLJ">
+                                <rect key="frame" x="166" y="323" width="31" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="9s0-RT-sLJ" firstAttribute="leading" secondItem="mdJ-vR-df1" secondAttribute="leading" constant="166" id="6cA-g1-QaK"/>
+                            <constraint firstItem="9s0-RT-sLJ" firstAttribute="centerY" secondItem="co4-RD-rNy" secondAttribute="centerY" id="LcA-mz-wBZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="mdJ-vR-df1"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="SuM-b0-x01"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qg1-MD-iHL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2591" y="96"/>
         </scene>
     </scenes>
     <resources>

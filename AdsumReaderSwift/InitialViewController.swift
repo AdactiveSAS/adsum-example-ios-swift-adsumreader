@@ -12,10 +12,35 @@ import QRCodeReader
 
 class InitialViewController: UIViewController, QRCodeReaderViewControllerDelegate{
     
+    let CONFIG_KEY = "AdsumConfigXml"
+    let SEGUE_TO_MAIN_KEY = "segueToMain"
+    
+    var currentConfigXml = String()
+    
+    @IBOutlet weak var loadSavedMapButton: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+//      for Testing Purposes - Remove before pr to master
+//        if let bundleID = Bundle.main.bundleIdentifier {
+//            UserDefaults.standard.removePersistentDomain(forName: bundleID)
+//        }
 
-        // Do any additional setup after loading the view.
+        
+        let defaults = UserDefaults.standard
+        if let xml = defaults.string(forKey: CONFIG_KEY){
+            if (xml.isEmpty){
+                print(xml)
+                loadSavedMapButton.isEnabled = false
+            } else {
+                currentConfigXml = xml
+            }
+        } else {
+            print("Nothing Saved in XML")
+            loadSavedMapButton.isEnabled = false
+        }
     }
     
     // create the reader lazily
@@ -53,7 +78,7 @@ class InitialViewController: UIViewController, QRCodeReaderViewControllerDelegat
                 
                 alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
             default:
-                alert = UIAlertController(title: "Error", message: "Reader not supported by the current device", preferredStyle: .alert)
+                alert = UIAlertController(title: "Error", message: "QR Code Reading is not available for your device. Please contact Adactive for further help.", preferredStyle: .alert)
                 alert.addAction(UIAlertAction(title: "OK", style: .cancel, handler: nil))
             }
             
@@ -67,7 +92,21 @@ class InitialViewController: UIViewController, QRCodeReaderViewControllerDelegat
     //for the "Load a Previously Saved Map" Button
     @IBAction func loadPreviouslySavedMap(_ sender: UIButton) {
         
-        print("load previously saved map");
+        let defaults = UserDefaults.standard
+        if let xml = defaults.string(forKey: CONFIG_KEY){
+            if (!xml.isEmpty){
+                print(xml)
+                DispatchQueue.main.async() {
+                    [unowned self] in
+                    self.performSegue(withIdentifier: self.SEGUE_TO_MAIN_KEY, sender: self)
+                    
+                }
+            }
+        } else {
+            print("Nothing Saved in XML")
+            loadSavedMapButton.isEnabled = false
+        }
+        
     }
     
     // for the "Scan and Load a New Map" Button
@@ -84,9 +123,23 @@ class InitialViewController: UIViewController, QRCodeReaderViewControllerDelegat
     
     func reader(_ reader: QRCodeReaderViewController, didScanResult result: QRCodeReaderResult) {
         reader.stopScanning()
-        dismiss(animated: true, completion: nil)
+        dismiss(animated: true) {
+            print(result)
+            
+            self.currentConfigXml = result.value
+            let defaults = UserDefaults.standard
+            defaults.set(self.currentConfigXml, forKey: self.CONFIG_KEY)
+            DispatchQueue.main.async() {
+                [unowned self] in
+                self.performSegue(withIdentifier: self.SEGUE_TO_MAIN_KEY, sender: self)
+                
+            }
+        }
         
-        print(result)
+    }
+    
+    func initiateSegue(){
+        
     }
     
     //This is an optional delegate method, that allows you to be notified when the user switches the cameraName

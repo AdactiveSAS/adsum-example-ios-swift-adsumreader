@@ -17,6 +17,7 @@
 		83637B901FFCB49D002DF590 /* Adsum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83637B8F1FFCB49D002DF590 /* Adsum.framework */; };
 		83637B921FFCB4BC002DF590 /* Adsum.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 83637B8F1FFCB49D002DF590 /* Adsum.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		83637B951FFCE3CF002DF590 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83637B941FFCE3CF002DF590 /* InitialViewController.swift */; };
+		83A1EBBF1FFDC06100BEC043 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A1EBBE1FFDC06100BEC043 /* MainViewController.swift */; };
 		86AF7B0DC207241123E7CB8D /* Pods_AdsumReaderSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C829732EA37AB884DCEBD4E1 /* Pods_AdsumReaderSwift.framework */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +69,7 @@
 		83637B781FFCA809002DF590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83637B8F1FFCB49D002DF590 /* Adsum.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Adsum.framework; sourceTree = "<group>"; };
 		83637B941FFCE3CF002DF590 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		83A1EBBE1FFDC06100BEC043 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		C829732EA37AB884DCEBD4E1 /* Pods_AdsumReaderSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdsumReaderSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE09C76FD3B457419D75EBAE /* Pods-AdsumReaderSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdsumReaderSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdsumReaderSwift/Pods-AdsumReaderSwift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -140,6 +142,7 @@
 				83637B5D1FFCA809002DF590 /* Assets.xcassets */,
 				83637B5F1FFCA809002DF590 /* LaunchScreen.storyboard */,
 				83637B621FFCA809002DF590 /* Info.plist */,
+				83A1EBBE1FFDC06100BEC043 /* MainViewController.swift */,
 			);
 			path = AdsumReaderSwift;
 			sourceTree = "<group>";
@@ -366,6 +369,7 @@
 				83637B951FFCE3CF002DF590 /* InitialViewController.swift in Sources */,
 				83637B591FFCA809002DF590 /* ViewController.swift in Sources */,
 				83637B571FFCA809002DF590 /* AppDelegate.swift in Sources */,
+				83A1EBBF1FFDC06100BEC043 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
