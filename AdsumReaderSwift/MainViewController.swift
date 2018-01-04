@@ -11,7 +11,7 @@ import Adsum
 import SWXMLHash
 
 protocol MapButtonsDelegate{
-    func floorChangeButtonClicked(floor: Int)
+    func floorChangeButtonClicked(floor: Int, sender: UIBarButtonItem)
 }
 
 class MainViewController: UIViewController {
@@ -25,7 +25,6 @@ class MainViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         
-        mapDelegate = MapViewController()
         
     }
 
@@ -37,7 +36,7 @@ class MainViewController: UIViewController {
     @IBAction func floorChangeButton(_ sender: UIBarButtonItem) {
         
         if (mapDelegate != nil){
-            mapDelegate?.floorChangeButtonClicked(floor: 1)
+            mapDelegate?.floorChangeButtonClicked(floor: 1, sender: sender);
         }
         
     }
@@ -47,8 +46,15 @@ class MainViewController: UIViewController {
 //     //MARK: - Navigation
 //
 //     //In a storyboard-based application, you will often want to do a little preparation before navigation
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//
-//    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if (segue.identifier == "segueToMap"){
+            guard let nextVc = segue.destination as? MapViewController
+            else {
+                return
+            }
+            print("did we set?")
+            self.mapDelegate = nextVc
+        }
+    }
 
 }

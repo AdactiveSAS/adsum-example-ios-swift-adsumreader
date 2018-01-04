@@ -9,6 +9,7 @@
 import UIKit
 import SWXMLHash
 import Adsum
+import ActionSheetPicker_3_0
 
 
 
@@ -17,6 +18,8 @@ class MapViewController: UIViewController, ADSMapDelegate, MapButtonsDelegate{
     let CONFIG_KEY = "AdsumConfigXml"
     var mapView : AdsumCoreView?
     var dataManager: ADSDataManager?
+    
+    var floors:[String] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -75,7 +78,7 @@ class MapViewController: UIViewController, ADSMapDelegate, MapButtonsDelegate{
         options.site = adsumConfigClass.siteId
         options.device = adsumConfigClass.kioskId
         options.apiBaseUrl = "http://asia-api.adsum.io"
-//        options.apiBaseUrl = adsumConfigClass.WSURL
+//        options.apiBaseUrl = adsumConfigClass.WSURL // this doesnt work.
         
         dataManager = ADSDataManager(adsOptions: options);
         mapView = AdsumCoreView(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height), adsDataManager: dataManager);
@@ -84,17 +87,28 @@ class MapViewController: UIViewController, ADSMapDelegate, MapButtonsDelegate{
         
         self.view.addSubview(mapView!)
 
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
-    func floorChangeButtonClicked(floor: Int){
-        print("floor changed : \(floor)")
+    func floorChangeButtonClicked(floor: Int, sender: UIBarButtonItem){
+        
+        print(self.floors)
+        
+        ActionSheetStringPicker.show(withTitle: "Please Select Floor", rows: self.floors, initialSelection: 0, doneBlock: {
+            picker, index, value in
+
+            if let selectedFloorInt = Int(value as! String) {
+               self.mapView?.setCurrentFloor(NSNumber(value:selectedFloorInt));
+            }
+            
+            return
+        }, cancel: { ActionStringCancelBlock in return }, origin: sender)
+        
         //mapView?.setCurrentFloor(levels?.first as! NSNumber);
+        
     }
     
     
@@ -120,19 +134,19 @@ class MapViewController: UIViewController, ADSMapDelegate, MapButtonsDelegate{
     func getAllLevels(){
         
         let buildings = mapView?.getBuildings();
-        let levels = mapView?.getFloorsWithBuilding(buildings?.first as! NSNumber)
-        
-        if levels != nil{
-            print("level= \(String(describing: levels))")
-            mapView?.setCurrentFloor(levels?.first as! NSNumber);
+        if let levels = mapView?.getFloorsWithBuilding(buildings?.first as! NSNumber){
+            mapView?.setCurrentFloor(levels.first as! NSNumber);
+            for level in levels{
+                self.floors.append(String(describing:level))
+            }
         }
     }
 
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
-    }
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//
+//    }
 
 }

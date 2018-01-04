@@ -1,15 +1,18 @@
 PODS:
+  - ActionSheetPicker-3.0 (2.3.0)
   - QRCodeReader.swift (8.0.4)
   - SWXMLHash (4.0.0)
 
 DEPENDENCIES:
+  - ActionSheetPicker-3.0
   - QRCodeReader.swift (= 8.0.4)
   - SWXMLHash (= 4.0.0)
 
 SPEC CHECKSUMS:
+  ActionSheetPicker-3.0: eef157d75e151f255c5333d26656c7fbfe905a51
   QRCodeReader.swift: 9730cfa7ed5f0dd839765df8cf18d41db20e4081
   SWXMLHash: 6bbc0bf72975a18ceda469fb7d6a886a26d81694
 
-PODFILE CHECKSUM: e0b37f58e81ea9771c87a94806c7ec3633360559
+PODFILE CHECKSUM: c8919ac2f7bb32c497f31423b43e3f5c92d67a27
 
 COCOAPODS: 1.3.1
