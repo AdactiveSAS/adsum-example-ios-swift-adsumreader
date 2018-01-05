@@ -6,15 +6,17 @@ This AdsumReader iOS example shows code examples of :
 - AdsumCoreView
 - ADSMapDelegate
 - ADSDataManager
+- ADSOptions
 - ADSPoi
+- ADSPlace
 
 This app allow you to scan a qrCode to visualize a site from our BackOffice.
 You can find this qrCode in 'Profile -> Management -> qrCode'.
 
 ## Basic Info
 
-Swift 4.0.3
-Adsum SDK v0.7.0
+- Swift 4.0.3
+- Adsum SDK v0.7.0
 
 ## Documentation
 
@@ -33,7 +35,8 @@ You need to run your project on a physical device
 
 ## Screenshot
 
-<div align="left" style="border:1px solid black">
+<div align="center" style="border:1px solid black">
      <img width="40%" src="/screenshot.jpeg" alt="Menu Screenshot" title="Menu Screenshot"</img>
+     <img width="8px"></img>
      <img width="40%" src="/siteScreenshot.jpeg" alt="Site Screenshot" title="Site Screenshot"</img>
 </div>
