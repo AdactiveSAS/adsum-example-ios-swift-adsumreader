@@ -69,7 +69,7 @@ class MapViewController: UIViewController, ADSMapDelegate, MapButtonsDelegate{
                 }
                 
                 if let val = elem["PIWIKURL"].element?.text{
-                    adsumConfigClass.WSURL = val
+                    adsumConfigClass.PIWIKURL = val
                 }
                 
                 if let val = elem["PIWIKSITEID"].element?.text{
@@ -87,6 +87,7 @@ class MapViewController: UIViewController, ADSMapDelegate, MapButtonsDelegate{
         options.device = adsumConfigClass.kioskId
         options.apiBaseUrl = "http://asia-api.adsum.io"
         //issue here
+        print(adsumConfigClass.WSURL)
 //        options.apiBaseUrl = adsumConfigClass.WSURL // this doesnt work.
         
         dataManager = ADSDataManager(adsOptions: options);
@@ -109,7 +110,7 @@ class MapViewController: UIViewController, ADSMapDelegate, MapButtonsDelegate{
         ActionSheetStringPicker.show(withTitle: "Please Select Floor", rows: self.floors, initialSelection: 0, doneBlock: {
             picker, index, value in
 
-            if let selectedFloorInt = Int(value as! String) {
+            if let selectedFloorInt = Int((value as? String)!) {
                self.mapView?.setCurrentFloor(NSNumber(value:selectedFloorInt));
             }
             
@@ -202,8 +203,10 @@ class MapViewController: UIViewController, ADSMapDelegate, MapButtonsDelegate{
         //unable to check for whether path is already drawn.
         //removePath causes a runtime error if path is not drawn.
         
-        mapView?.setCurrentFloor(poiTo?.floorId)
-        mapView?.hightlightADSPlace(poiTo, with: UIColor.green, andBounce: 1)
-        mapView?.drawPath(from: poiFrom!, to: poiTo!, forPrm: false)
+        if (poiTo != nil && poiFrom != nil){
+            mapView?.setCurrentFloor(poiTo?.floorId)
+            mapView?.hightlightADSPlace(poiTo, with: UIColor.green, andBounce: 1)
+            mapView?.drawPath(from: poiFrom!, to: poiTo!, forPrm: false)
+        }
     }
 }

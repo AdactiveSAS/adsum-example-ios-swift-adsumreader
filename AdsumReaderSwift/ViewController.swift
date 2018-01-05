@@ -19,10 +19,10 @@ class ViewController: UIViewController, ADSMapDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         let options = ADSOptions()
-        options.apiKey = "62dffdb3044249d39dbaa3a26b1dce68"
-        options.site = 341
-        options.device = 1063
-        options.apiBaseUrl = "http://asia-api.adsum.io"
+        options.apiKey = "0571bcea3e9a529f5333c726f551cd51ebf0aeefed760cef35bffa3c7ec32e2b"
+        options.site = 305
+        options.device = 323
+        options.apiBaseUrl = "https://asia-api.adsum.io"
         
         dataManager = ADSDataManager(adsOptions: options);
         mapView = AdsumCoreView(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height), adsDataManager: dataManager);
