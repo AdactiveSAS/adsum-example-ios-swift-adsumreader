@@ -14,6 +14,8 @@ class ViewController: UIViewController, ADSMapDelegate {
     var mapView : AdsumCoreView?
     var dataManager: ADSDataManager?
     
+    //swift example of using mapview
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         let options = ADSOptions()

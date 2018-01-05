@@ -7,175 +7,175 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01AB66CE5AF100D2AF85D42059115FD1 /* Pods-AdsumReaderSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B28E0517558FBE5EA719B04FDB40D5E /* Pods-AdsumReaderSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0808FFFD7D46A24C513397E728DF228A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB87367D9B5B48A3CBB2B5DFD7573959 /* Foundation.framework */; };
-		0E3BFC96C6A7CCADAF3DA6C3C80F35EC /* SWActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 9572B2EC49ABB71086BF2CEABC3417B5 /* SWActionSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1389A1A3E53CE2D3643BB43DDD515650 /* ToggleTorchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830ACA4AA886176396B17A77614074D1 /* ToggleTorchButton.swift */; };
-		1648AB9E52071D70CD79280AB21C94D1 /* ActionSheetDistancePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 47C60F5FCDB096C2CACDE45252687B4B /* ActionSheetDistancePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		16A9C320C0A1EDD2562F2D8183399FF8 /* SWXMLHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100548DFF35FA0F8455C1EF173D0DD41 /* SWXMLHash.swift */; };
-		1A0130E51AF422F68818416677EE6595 /* ActionSheetDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = D690243C2029BD5D4F2CAA43B422F75A /* ActionSheetDatePicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		246DD685C951FFF04D55232211F076CD /* ActionSheetDistancePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = D50C5D5C57D48067570643DA58D59325 /* ActionSheetDistancePicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		2680FB2A9AAFE79796C23A20390CEF45 /* AbstractActionSheetPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 23CC0D24A68D5FD7053B65371D082114 /* AbstractActionSheetPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		26E24EE3C2C315B7A5BE2777F8729E02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB87367D9B5B48A3CBB2B5DFD7573959 /* Foundation.framework */; };
-		29C34B43AFA7A1D88AB188801C76E08C /* ActionSheetPicker-3.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10415D7171F4DCFA521695DCB1FCFD5F /* ActionSheetPicker-3.0-dummy.m */; };
-		2B2B5C568525F760C9EDAACC7C3D665C /* ReaderOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035F2EC391964B3D99C7898C3E5221B4 /* ReaderOverlayView.swift */; };
-		2D853F373D5E3B4647AB4E70A833475C /* QRCodeReader.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC83282604369320AB95AA9E536954E0 /* QRCodeReader.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3C15B44E26D3C17DBA7AC5656DE86A38 /* SwitchCameraButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C96DA74FA2286D930F94A301983BBE4 /* SwitchCameraButton.swift */; };
-		3C8D2470783809376BA929A9603C21D9 /* DistancePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D5081C69B25C6389BE817C54FA6D0A /* DistancePickerView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		430E0A46B42F47FF79AE16168D1613E9 /* ActionSheetLocalePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E12AC16FC73C7689F49DD7C95527650 /* ActionSheetLocalePicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		4BD06D2BFA774326E896A4C4D5159195 /* QRCodeReaderViewControllerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22C19C7BD7E67E8699231747108A336 /* QRCodeReaderViewControllerBuilder.swift */; };
-		6A24F508FB326D66EFC4987F1A09D40F /* QRCodeReader.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 873C9205900037C1EB65F4755A3B062C /* QRCodeReader.swift-dummy.m */; };
-		6C16BD3BCB1B65194E7CEA5CF15AD446 /* ActionSheetMultipleStringPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 1279B3B2E8F147A027C0C89EEA32F342 /* ActionSheetMultipleStringPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		768344C121535F913D332D6EF04200F8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD3A287BB87F4D3C474EC576926A0F89 /* AVFoundation.framework */; };
-		7A7191A5A23A64E1A3982D91C17B18B5 /* Pods-AdsumReaderSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC60FAE72F80C9D54EF3F2BDDFDF311D /* Pods-AdsumReaderSwift-dummy.m */; };
-		7A7BC02422CDED68D4A64A0EE2D61028 /* QRCodeReaderViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7D40D361EB3028CFB7C0A18C71F851 /* QRCodeReaderViewControllerDelegate.swift */; };
-		82DB07E1965CC9FFA0340EDA2C5A05A0 /* ActionSheetLocalePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 36393F7CC3032AA890A10EC788A898EB /* ActionSheetLocalePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		83678861FC71A2BE986560E60D265F1C /* ActionSheetPicker-3.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55F15A8BA08089CE5C95B7CB25428E22 /* ActionSheetPicker-3.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		90E3389D33DD00DE304548BE9C52C69F /* ActionSheetCustomPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = BBF7D03BB794B57CCA691C35157D5A08 /* ActionSheetCustomPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		972BCAE780A1E7276D1C23D8D3B49075 /* QRCodeReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553309159CB0F99C737DF679049FC8C4 /* QRCodeReader.swift */; };
-		979D870890FEDCD7EC4692418DF47551 /* SWXMLHash-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F928172813FA377F6917F25A37725A7C /* SWXMLHash-dummy.m */; };
-		9B2B8491E6B1B8EA1C9ACD37341C726B /* ActionSheetPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = DEC94D7C4276DC50C06C120F644CF53F /* ActionSheetPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9B867960879FDDD089A9E41F027E13B9 /* AbstractActionSheetPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E70BAEA7FFF2F406D833CF792A0ED29 /* AbstractActionSheetPicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		9BC276383ED044BB0926AFDFD73F928E /* ActionSheetDatePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A013ECB73D2F4BF3EA349B8FB016773 /* ActionSheetDatePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C4CA1B1F646F071A91C5632D32714FA /* LUAutocompleteView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 399222E7A491C45AE4CB3A2F1A1701D3 /* LUAutocompleteView-dummy.m */; };
+		0DD01F53040666A8CB1C542CCF9CFD45 /* QRCodeReaderViewControllerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E0FEACDA1D333E9A6A8588E717E9C5 /* QRCodeReaderViewControllerBuilder.swift */; };
+		0E3BFC96C6A7CCADAF3DA6C3C80F35EC /* SWActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CD2634479506CB019E4BEC7CC14334 /* SWActionSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1648AB9E52071D70CD79280AB21C94D1 /* ActionSheetDistancePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = D78B4F12BE6F9E6002C302B1E0EA97C1 /* ActionSheetDistancePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A0130E51AF422F68818416677EE6595 /* ActionSheetDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 081075E60E403443716E683CCC477AE1 /* ActionSheetDatePicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		246DD685C951FFF04D55232211F076CD /* ActionSheetDistancePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD74431BAEBFB9BCBFD53B3E75FB7AE /* ActionSheetDistancePicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2659569ADFE410C63EAFF98865BCA39F /* QRCodeReader.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8143259ECA6122A155307C09F42B93DC /* QRCodeReader.swift-dummy.m */; };
+		2680FB2A9AAFE79796C23A20390CEF45 /* AbstractActionSheetPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F82C888331C2EDD35C61A6AD5B9E81 /* AbstractActionSheetPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28894D6BB5AF9721208BF773E9F1C412 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB87367D9B5B48A3CBB2B5DFD7573959 /* Foundation.framework */; };
+		29C34B43AFA7A1D88AB188801C76E08C /* ActionSheetPicker-3.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 218C045BA12D384E35275E3FA4CC2BF9 /* ActionSheetPicker-3.0-dummy.m */; };
+		3A43F3DCB63AC706EB87554C0ECC1C32 /* ToggleTorchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBAA01A469F06BD9ED58675BD51BE9E /* ToggleTorchButton.swift */; };
+		3A47485A66100545751553D9EBA2BE3D /* LUAutocompleteView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 497AF33ABE2DC3394C84A66CE7DD124D /* LUAutocompleteView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C8D2470783809376BA929A9603C21D9 /* DistancePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 427A1752F67BEB0F350B0F1C824578A8 /* DistancePickerView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		430E0A46B42F47FF79AE16168D1613E9 /* ActionSheetLocalePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DB598842E5408CA3494A112C307BA2 /* ActionSheetLocalePicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		43CEF5AA2E895BE98AEF8A9693CB7598 /* SWXMLHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25806A47F2A7FEAF3609A05562B35743 /* SWXMLHash.swift */; };
+		4A2BD4E5D98C6789BF5D806DB8913A1A /* Pods-AdsumReaderSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC60FAE72F80C9D54EF3F2BDDFDF311D /* Pods-AdsumReaderSwift-dummy.m */; };
+		4A82D60FABAEEF16CCD93EDCE8FEC8B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB87367D9B5B48A3CBB2B5DFD7573959 /* Foundation.framework */; };
+		50199A6A5B2000E28A39B0C56DD25190 /* ReaderOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1B01A409BAAF79454F9AA728F55A85 /* ReaderOverlayView.swift */; };
+		5089A9A9EB9A610D9304D7EF85F518B1 /* SWXMLHash+TypeConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254FA954FA7FF8965BA87B20F7B00767 /* SWXMLHash+TypeConversion.swift */; };
+		52AEA79EF030A07DE05DE9BC9D0750B6 /* LUAutocompleteViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A0583AA73AEC89E3A210BF420AFE29 /* LUAutocompleteViewDelegate.swift */; };
+		5AA80EF014463012AD55C12878A3ADB9 /* QRCodeReaderResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6CA0C7D3F77431DB661D41A845C5CB /* QRCodeReaderResult.swift */; };
+		6574E60DA36A7E6C29A1252FC6CAB779 /* LUAutocompleteViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDE04B26C2C0070CFE2E361AF6386F3 /* LUAutocompleteViewDataSource.swift */; };
+		6930B86CE3B547054C1FBC66AFE93FFA /* Pods-AdsumReaderSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B28E0517558FBE5EA719B04FDB40D5E /* Pods-AdsumReaderSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C16BD3BCB1B65194E7CEA5CF15AD446 /* ActionSheetMultipleStringPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 93A8220B5105576F75731312C4C0CE24 /* ActionSheetMultipleStringPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A8A487D32F115DCC1B6218E1CB1EEEF /* LUAutocompleteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAB74723AD8D221E277D4A1E33F9F70 /* LUAutocompleteTableViewCell.swift */; };
+		7B9F4C3F5A7E46BF280241B3094B802E /* QRCodeReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93311D04C25CF47BAA0877A39F389D5E /* QRCodeReaderViewController.swift */; };
+		82DB07E1965CC9FFA0340EDA2C5A05A0 /* ActionSheetLocalePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DB4439E85B5798E560FF6579D225925 /* ActionSheetLocalePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83678861FC71A2BE986560E60D265F1C /* ActionSheetPicker-3.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 81869FF5010949E07FD64661C267926F /* ActionSheetPicker-3.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90E3389D33DD00DE304548BE9C52C69F /* ActionSheetCustomPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = EB1730DA903571ED0932EADD13225F55 /* ActionSheetCustomPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		923F58ECF47770523FE1CF854B6ACB30 /* QRCodeReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD3557AC8168AC9DEA3E43113EA4A7E /* QRCodeReader.swift */; };
+		9B2B8491E6B1B8EA1C9ACD37341C726B /* ActionSheetPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 23FA360D5F35371D1B5FEC7AE53124B2 /* ActionSheetPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B867960879FDDD089A9E41F027E13B9 /* AbstractActionSheetPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FA69DB5F145D725DF44B7F94B10043 /* AbstractActionSheetPicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9BC276383ED044BB0926AFDFD73F928E /* ActionSheetDatePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B91B2B58DA02C249E93DD5F7EF02991 /* ActionSheetDatePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CEFEF0249B3C3CEA53E1236C53C53ED /* SwitchCameraButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E034870028D8ADB6AD709BF05DC3E8 /* SwitchCameraButton.swift */; };
 		A2F74AC56E76F01E7A69BB8D3A7E3DB8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C4BD65EEF247D4C8A723C0F18B326C /* UIKit.framework */; };
-		A3F7D9A89AC1EC1045E8DA918F192763 /* QRCodeReaderResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA878900C2D5C3C652BF050425170EB0 /* QRCodeReaderResult.swift */; };
-		A5FAD052766360BC78592C473DCE46E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB87367D9B5B48A3CBB2B5DFD7573959 /* Foundation.framework */; };
-		AD61C011A7D98B0134FBF395B90796A5 /* QRCodeReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D224009DD6C9EBEE95225E675042746 /* QRCodeReaderViewController.swift */; };
-		AE84E0341C26A9B5C8E1501C8E8AAC8F /* ActionSheetCustomPickerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = AD57BB20320491DC6651A933925C77DD /* ActionSheetCustomPickerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BDBFA441010D34FB51DC32F28314AD8D /* ActionSheetStringPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = DC7BF9AD46389ADACA37E7C4575E5ED5 /* ActionSheetStringPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C6CB72E223B27A0C2B06910EC0FADF67 /* ActionSheetStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD9EAC0A3876155CFEBB82AF83D0ED9 /* ActionSheetStringPicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		CA068FC25E80824549668A53EC9379EC /* DistancePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FF08B7E40EFFBCF5AB28498D0782AD9 /* DistancePickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CB37B119CCFCC5B0EE87DF1E209F4332 /* QRCodeReaderViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CC2A9E6BABBEF894D4327918D6CB7F /* QRCodeReaderViewContainer.swift */; };
+		AD3DFFC5AF06F8C61A014AA2F9524D5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB87367D9B5B48A3CBB2B5DFD7573959 /* Foundation.framework */; };
+		AE84E0341C26A9B5C8E1501C8E8AAC8F /* ActionSheetCustomPickerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AB8853D4F79C87BFE6D113D16F800F8 /* ActionSheetCustomPickerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0D1DFD11CEB2FD3C62E793257BFE0CC /* SWXMLHash-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C5BF52A7B40B93DA665B6C1576F7732 /* SWXMLHash-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B21244F6706669D51B5D841B8F0B05B3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD3A287BB87F4D3C474EC576926A0F89 /* AVFoundation.framework */; };
+		B57692AA78D1840B9B5ADABBB0FE5114 /* QRCodeReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C07C2C67515FC5A887815D01C5DDC69 /* QRCodeReaderView.swift */; };
+		B78F42D4C391A48FE9D4992FF8E891E7 /* QRCodeReaderViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4F57B73DA812AF129A56EA5D2C1220 /* QRCodeReaderViewControllerDelegate.swift */; };
+		BDBFA441010D34FB51DC32F28314AD8D /* ActionSheetStringPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 9219577180D95E9FECC787ACB80567BC /* ActionSheetStringPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6CB72E223B27A0C2B06910EC0FADF67 /* ActionSheetStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFF79B1C6D19D64DC3D28A96C43D46F /* ActionSheetStringPicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C6DA4AB78957C9FC5EFC4677925CE227 /* LUAutocompleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EED932EC58288EEDB1D63E549D3861 /* LUAutocompleteView.swift */; };
+		CA068FC25E80824549668A53EC9379EC /* DistancePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9028D78DC1B983DA2D990058089F6E4D /* DistancePickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CC838339C0E4BB6BB1B5E03D21CB3893 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB87367D9B5B48A3CBB2B5DFD7573959 /* Foundation.framework */; };
-		D31FEBEE111408B4FBBF3B36B06EBBF3 /* SWXMLHash+TypeConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63609FDBF5C364EC820C233F619AC51B /* SWXMLHash+TypeConversion.swift */; };
-		DA732A6C79E7252A25F23A1497ACD0FD /* ActionSheetMultipleStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDB4B11781585AA1B8285FEDFF6953E /* ActionSheetMultipleStringPicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		E049CE807DA7A012BA222DE64920C3D1 /* SWActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D628F55ADD15F07DF8852A8E3FC6D2D /* SWActionSheet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		E61ED7FAF083B75902728EB20AC4BD92 /* ActionSheetCustomPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 694DECE8CADF145D924DE45C136CE888 /* ActionSheetCustomPicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		EBB4DB93E93766F07D36BE272E11E2A5 /* QRCodeReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F630DFAD6FECAD6CF256C544255DABEF /* QRCodeReaderView.swift */; };
-		F7D6203E859EE706CDF9F516E1E89E31 /* SWXMLHash-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F6748985CFF0E05585527184C9F34737 /* SWXMLHash-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6579DCD7EF99F3CA5A5C3517369E0C1 /* SWXMLHash-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A6B68193FCC030EE64DCBBA28BD290 /* SWXMLHash-dummy.m */; };
+		DA732A6C79E7252A25F23A1497ACD0FD /* ActionSheetMultipleStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE8F2CFD86EE480BB217F1DDD0FA9C6 /* ActionSheetMultipleStringPicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DC597AAAA94B7327A5A803C10712BE95 /* QRCodeReader.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1364D07C5A659A9C9E953E8847A0D77 /* QRCodeReader.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E049CE807DA7A012BA222DE64920C3D1 /* SWActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C41F75847B0617A7277711798F73F9 /* SWActionSheet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E61ED7FAF083B75902728EB20AC4BD92 /* ActionSheetCustomPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B5503A4F6505CB42F94BFF081487C8 /* ActionSheetCustomPicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F736BAB71D7DEBEF6C169DB7E04DF117 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB87367D9B5B48A3CBB2B5DFD7573959 /* Foundation.framework */; };
+		FFA5A8FFDED7DE41881F5146B94289DB /* QRCodeReaderViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5C595B8C8F897E5651DB22199101B9 /* QRCodeReaderViewContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		12160BE6502D3DBA91B6024FD4BE08D6 /* PBXContainerItemProxy */ = {
+		2126B23EE88A49E6DFFB90D9F5C2121F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DEC2B99E1BDCCB27204D88B9E8746C1;
+			remoteInfo = LUAutocompleteView;
+		};
+		4F2AB0FE57D0C67DF333491C8A69AE50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42EB802DCE41799F193A9474C564F486;
+			remoteInfo = SWXMLHash;
+		};
+		5E23ACBB7EA4139B0EBAC7C8542B1FDA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 965699190112DDBD9B7864D091660DBC;
 			remoteInfo = "ActionSheetPicker-3.0";
 		};
-		26A3BAFA13756A2CE33B6F7E1F82FB1C /* PBXContainerItemProxy */ = {
+		6E1582F1E626A6B75AEAB34D35BC5A30 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 91962514F9593BD188D38C30CA21B586;
-			remoteInfo = SWXMLHash;
-		};
-		D47372081A2C864F4CEDDCF56F490119 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BE1F7170DC29E2354386BBE852F75D44;
+			remoteGlobalIDString = DA2ACC26A80F2E43AC1C6782C7BF64FF;
 			remoteInfo = QRCodeReader.swift;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		017E664FBA50B7D273F7C71F01D9FBF6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		01E4097C84B06D13BBE51FEA5E94EBF9 /* ActionSheetPicker_3_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ActionSheetPicker_3_0.framework; path = "ActionSheetPicker-3.0.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		03460FF17F0C0B8FE81B2E47FED3303F /* ActionSheetPicker-3.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ActionSheetPicker-3.0-prefix.pch"; sourceTree = "<group>"; };
-		035F2EC391964B3D99C7898C3E5221B4 /* ReaderOverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReaderOverlayView.swift; path = Sources/ReaderOverlayView.swift; sourceTree = "<group>"; };
+		00DB598842E5408CA3494A112C307BA2 /* ActionSheetLocalePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetLocalePicker.m; path = Pickers/ActionSheetLocalePicker.m; sourceTree = "<group>"; };
 		076BF28B4ABB5C51B266BFEBFD4D550F /* Pods-AdsumReaderSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AdsumReaderSwift.modulemap"; sourceTree = "<group>"; };
-		100548DFF35FA0F8455C1EF173D0DD41 /* SWXMLHash.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SWXMLHash.swift; path = Source/SWXMLHash.swift; sourceTree = "<group>"; };
-		10415D7171F4DCFA521695DCB1FCFD5F /* ActionSheetPicker-3.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ActionSheetPicker-3.0-dummy.m"; sourceTree = "<group>"; };
-		12034696E16422AF28DDC1E49F2F2888 /* SWXMLHash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SWXMLHash.framework; path = SWXMLHash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1279B3B2E8F147A027C0C89EEA32F342 /* ActionSheetMultipleStringPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetMultipleStringPicker.h; path = Pickers/ActionSheetMultipleStringPicker.h; sourceTree = "<group>"; };
+		081075E60E403443716E683CCC477AE1 /* ActionSheetDatePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetDatePicker.m; path = Pickers/ActionSheetDatePicker.m; sourceTree = "<group>"; };
+		0BCE2AFA73202D0FADCB6EFB9C75A15C /* LUAutocompleteView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LUAutocompleteView.framework; path = LUAutocompleteView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C5BF52A7B40B93DA665B6C1576F7732 /* SWXMLHash-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWXMLHash-umbrella.h"; sourceTree = "<group>"; };
+		126692A00BF342F1AFB2F1E9DE77F479 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1666406F0BDF180D9CCE9745B9991A89 /* LUAutocompleteView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LUAutocompleteView.xcconfig; sourceTree = "<group>"; };
 		167964AE9FDFADD9C13408C4A06C6368 /* Pods-AdsumReaderSwift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AdsumReaderSwift-acknowledgements.plist"; sourceTree = "<group>"; };
-		1CD9EAC0A3876155CFEBB82AF83D0ED9 /* ActionSheetStringPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetStringPicker.m; path = Pickers/ActionSheetStringPicker.m; sourceTree = "<group>"; };
-		1FF08B7E40EFFBCF5AB28498D0782AD9 /* DistancePickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DistancePickerView.h; path = Pickers/DistancePickerView.h; sourceTree = "<group>"; };
-		23CC0D24A68D5FD7053B65371D082114 /* AbstractActionSheetPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AbstractActionSheetPicker.h; path = Pickers/AbstractActionSheetPicker.h; sourceTree = "<group>"; };
-		2C96DA74FA2286D930F94A301983BBE4 /* SwitchCameraButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchCameraButton.swift; path = Sources/SwitchCameraButton.swift; sourceTree = "<group>"; };
-		34CC2A9E6BABBEF894D4327918D6CB7F /* QRCodeReaderViewContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderViewContainer.swift; path = Sources/QRCodeReaderViewContainer.swift; sourceTree = "<group>"; };
-		36393F7CC3032AA890A10EC788A898EB /* ActionSheetLocalePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetLocalePicker.h; path = Pickers/ActionSheetLocalePicker.h; sourceTree = "<group>"; };
-		3FDB4B11781585AA1B8285FEDFF6953E /* ActionSheetMultipleStringPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetMultipleStringPicker.m; path = Pickers/ActionSheetMultipleStringPicker.m; sourceTree = "<group>"; };
-		47C60F5FCDB096C2CACDE45252687B4B /* ActionSheetDistancePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetDistancePicker.h; path = Pickers/ActionSheetDistancePicker.h; sourceTree = "<group>"; };
-		4D224009DD6C9EBEE95225E675042746 /* QRCodeReaderViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderViewController.swift; path = Sources/QRCodeReaderViewController.swift; sourceTree = "<group>"; };
-		4D628F55ADD15F07DF8852A8E3FC6D2D /* SWActionSheet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWActionSheet.m; path = Pickers/SWActionSheet.m; sourceTree = "<group>"; };
+		16A6B68193FCC030EE64DCBBA28BD290 /* SWXMLHash-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SWXMLHash-dummy.m"; sourceTree = "<group>"; };
+		1CAB74723AD8D221E277D4A1E33F9F70 /* LUAutocompleteTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LUAutocompleteTableViewCell.swift; path = Sources/LUAutocompleteTableViewCell.swift; sourceTree = "<group>"; };
+		218C045BA12D384E35275E3FA4CC2BF9 /* ActionSheetPicker-3.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ActionSheetPicker-3.0-dummy.m"; sourceTree = "<group>"; };
+		23FA360D5F35371D1B5FEC7AE53124B2 /* ActionSheetPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetPicker.h; path = Pickers/ActionSheetPicker.h; sourceTree = "<group>"; };
+		254FA954FA7FF8965BA87B20F7B00767 /* SWXMLHash+TypeConversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SWXMLHash+TypeConversion.swift"; path = "Source/SWXMLHash+TypeConversion.swift"; sourceTree = "<group>"; };
+		25806A47F2A7FEAF3609A05562B35743 /* SWXMLHash.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SWXMLHash.swift; path = Source/SWXMLHash.swift; sourceTree = "<group>"; };
+		2925E4AD2966B7612C5224A475ACDF4F /* LUAutocompleteView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LUAutocompleteView.modulemap; sourceTree = "<group>"; };
+		2B91B2B58DA02C249E93DD5F7EF02991 /* ActionSheetDatePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetDatePicker.h; path = Pickers/ActionSheetDatePicker.h; sourceTree = "<group>"; };
+		334348F7FD0B684306951EE49DFB3E75 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3439D13255A3256F91736C680FF06B63 /* SWXMLHash.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SWXMLHash.modulemap; sourceTree = "<group>"; };
+		399222E7A491C45AE4CB3A2F1A1701D3 /* LUAutocompleteView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LUAutocompleteView-dummy.m"; sourceTree = "<group>"; };
+		3AD3557AC8168AC9DEA3E43113EA4A7E /* QRCodeReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReader.swift; path = Sources/QRCodeReader.swift; sourceTree = "<group>"; };
+		427A1752F67BEB0F350B0F1C824578A8 /* DistancePickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DistancePickerView.m; path = Pickers/DistancePickerView.m; sourceTree = "<group>"; };
+		497AF33ABE2DC3394C84A66CE7DD124D /* LUAutocompleteView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LUAutocompleteView-umbrella.h"; sourceTree = "<group>"; };
+		49A0583AA73AEC89E3A210BF420AFE29 /* LUAutocompleteViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LUAutocompleteViewDelegate.swift; path = Sources/LUAutocompleteViewDelegate.swift; sourceTree = "<group>"; };
+		4C6CA0C7D3F77431DB661D41A845C5CB /* QRCodeReaderResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderResult.swift; path = Sources/QRCodeReaderResult.swift; sourceTree = "<group>"; };
+		500B79EA4316B2C095155EB2E3D9D403 /* SWXMLHash-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWXMLHash-prefix.pch"; sourceTree = "<group>"; };
 		503DD9C43E4C7318C0AAF3B97CA8A0E2 /* Pods-AdsumReaderSwift-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AdsumReaderSwift-frameworks.sh"; sourceTree = "<group>"; };
-		553309159CB0F99C737DF679049FC8C4 /* QRCodeReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReader.swift; path = Sources/QRCodeReader.swift; sourceTree = "<group>"; };
-		55F15A8BA08089CE5C95B7CB25428E22 /* ActionSheetPicker-3.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ActionSheetPicker-3.0-umbrella.h"; sourceTree = "<group>"; };
+		50D9626A216716B5D510EE14B39CD725 /* ActionSheetPicker_3_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ActionSheetPicker_3_0.framework; path = "ActionSheetPicker-3.0.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53016FF09BC8837BACA9943BB3B17FB6 /* ActionSheetPicker-3.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "ActionSheetPicker-3.0.modulemap"; sourceTree = "<group>"; };
+		53F82C888331C2EDD35C61A6AD5B9E81 /* AbstractActionSheetPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AbstractActionSheetPicker.h; path = Pickers/AbstractActionSheetPicker.h; sourceTree = "<group>"; };
 		5B28E0517558FBE5EA719B04FDB40D5E /* Pods-AdsumReaderSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AdsumReaderSwift-umbrella.h"; sourceTree = "<group>"; };
-		5E70BAEA7FFF2F406D833CF792A0ED29 /* AbstractActionSheetPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AbstractActionSheetPicker.m; path = Pickers/AbstractActionSheetPicker.m; sourceTree = "<group>"; };
-		63609FDBF5C364EC820C233F619AC51B /* SWXMLHash+TypeConversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SWXMLHash+TypeConversion.swift"; path = "Source/SWXMLHash+TypeConversion.swift"; sourceTree = "<group>"; };
+		60E0FEACDA1D333E9A6A8588E717E9C5 /* QRCodeReaderViewControllerBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderViewControllerBuilder.swift; path = Sources/QRCodeReaderViewControllerBuilder.swift; sourceTree = "<group>"; };
 		63C4BD65EEF247D4C8A723C0F18B326C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		694DECE8CADF145D924DE45C136CE888 /* ActionSheetCustomPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetCustomPicker.m; path = Pickers/ActionSheetCustomPicker.m; sourceTree = "<group>"; };
-		6E05B030E7C0CC1B6BA232ECEF1BB206 /* ActionSheetPicker-3.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ActionSheetPicker-3.0.xcconfig"; sourceTree = "<group>"; };
-		70920119AD33406737DAF5F3DB6A77C6 /* SWXMLHash-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWXMLHash-prefix.pch"; sourceTree = "<group>"; };
-		7A3F4CABC5978BEFBEDB3EA94F65D460 /* SWXMLHash.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SWXMLHash.xcconfig; sourceTree = "<group>"; };
-		7B533D62D7C94127E1870BD7E6A345A3 /* QRCodeReader.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QRCodeReader.swift-prefix.pch"; sourceTree = "<group>"; };
-		830ACA4AA886176396B17A77614074D1 /* ToggleTorchButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToggleTorchButton.swift; path = Sources/ToggleTorchButton.swift; sourceTree = "<group>"; };
-		83D5081C69B25C6389BE817C54FA6D0A /* DistancePickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DistancePickerView.m; path = Pickers/DistancePickerView.m; sourceTree = "<group>"; };
-		873C9205900037C1EB65F4755A3B062C /* QRCodeReader.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QRCodeReader.swift-dummy.m"; sourceTree = "<group>"; };
+		6953C7B5048210F208DE5570271CA51D /* QRCodeReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QRCodeReader.framework; path = QRCodeReader.swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73FA69DB5F145D725DF44B7F94B10043 /* AbstractActionSheetPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AbstractActionSheetPicker.m; path = Pickers/AbstractActionSheetPicker.m; sourceTree = "<group>"; };
+		76CD2634479506CB019E4BEC7CC14334 /* SWActionSheet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWActionSheet.h; path = Pickers/SWActionSheet.h; sourceTree = "<group>"; };
+		7C07C2C67515FC5A887815D01C5DDC69 /* QRCodeReaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderView.swift; path = Sources/QRCodeReaderView.swift; sourceTree = "<group>"; };
+		8143259ECA6122A155307C09F42B93DC /* QRCodeReader.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QRCodeReader.swift-dummy.m"; sourceTree = "<group>"; };
+		81869FF5010949E07FD64661C267926F /* ActionSheetPicker-3.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ActionSheetPicker-3.0-umbrella.h"; sourceTree = "<group>"; };
+		81E034870028D8ADB6AD709BF05DC3E8 /* SwitchCameraButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchCameraButton.swift; path = Sources/SwitchCameraButton.swift; sourceTree = "<group>"; };
+		88EED932EC58288EEDB1D63E549D3861 /* LUAutocompleteView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LUAutocompleteView.swift; path = Sources/LUAutocompleteView.swift; sourceTree = "<group>"; };
 		8909375FBDE4761FC6CC3DB30C53CD37 /* Pods-AdsumReaderSwift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AdsumReaderSwift-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8A013ECB73D2F4BF3EA349B8FB016773 /* ActionSheetDatePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetDatePicker.h; path = Pickers/ActionSheetDatePicker.h; sourceTree = "<group>"; };
-		8C7952303D1F5C2EC854B37517B5FB5F /* QRCodeReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QRCodeReader.framework; path = QRCodeReader.swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E12AC16FC73C7689F49DD7C95527650 /* ActionSheetLocalePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetLocalePicker.m; path = Pickers/ActionSheetLocalePicker.m; sourceTree = "<group>"; };
+		89C41F75847B0617A7277711798F73F9 /* SWActionSheet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWActionSheet.m; path = Pickers/SWActionSheet.m; sourceTree = "<group>"; };
+		8A1B01A409BAAF79454F9AA728F55A85 /* ReaderOverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReaderOverlayView.swift; path = Sources/ReaderOverlayView.swift; sourceTree = "<group>"; };
+		9028D78DC1B983DA2D990058089F6E4D /* DistancePickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DistancePickerView.h; path = Pickers/DistancePickerView.h; sourceTree = "<group>"; };
+		9219577180D95E9FECC787ACB80567BC /* ActionSheetStringPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetStringPicker.h; path = Pickers/ActionSheetStringPicker.h; sourceTree = "<group>"; };
+		92B5503A4F6505CB42F94BFF081487C8 /* ActionSheetCustomPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetCustomPicker.m; path = Pickers/ActionSheetCustomPicker.m; sourceTree = "<group>"; };
+		93311D04C25CF47BAA0877A39F389D5E /* QRCodeReaderViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderViewController.swift; path = Sources/QRCodeReaderViewController.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9572B2EC49ABB71086BF2CEABC3417B5 /* SWActionSheet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWActionSheet.h; path = Pickers/SWActionSheet.h; sourceTree = "<group>"; };
-		A5AC63046A16BCDD243091F6D1BEA19E /* QRCodeReader.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = QRCodeReader.swift.modulemap; sourceTree = "<group>"; };
-		AC83282604369320AB95AA9E536954E0 /* QRCodeReader.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QRCodeReader.swift-umbrella.h"; sourceTree = "<group>"; };
-		AD57BB20320491DC6651A933925C77DD /* ActionSheetCustomPickerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetCustomPickerDelegate.h; path = Pickers/ActionSheetCustomPickerDelegate.h; sourceTree = "<group>"; };
-		B9293DD05B432E90D4928A932222B347 /* QRCodeReader.swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QRCodeReader.swift.xcconfig; sourceTree = "<group>"; };
-		BBF7D03BB794B57CCA691C35157D5A08 /* ActionSheetCustomPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetCustomPicker.h; path = Pickers/ActionSheetCustomPicker.h; sourceTree = "<group>"; };
+		93A8220B5105576F75731312C4C0CE24 /* ActionSheetMultipleStringPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetMultipleStringPicker.h; path = Pickers/ActionSheetMultipleStringPicker.h; sourceTree = "<group>"; };
+		950133F23A97A1ED48EEDE49013FF480 /* ActionSheetPicker-3.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ActionSheetPicker-3.0.xcconfig"; sourceTree = "<group>"; };
+		9AB8853D4F79C87BFE6D113D16F800F8 /* ActionSheetCustomPickerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetCustomPickerDelegate.h; path = Pickers/ActionSheetCustomPickerDelegate.h; sourceTree = "<group>"; };
+		9DB4439E85B5798E560FF6579D225925 /* ActionSheetLocalePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetLocalePicker.h; path = Pickers/ActionSheetLocalePicker.h; sourceTree = "<group>"; };
+		A1364D07C5A659A9C9E953E8847A0D77 /* QRCodeReader.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QRCodeReader.swift-umbrella.h"; sourceTree = "<group>"; };
+		A2BEAF40F860A1779E6658DE75747D0A /* QRCodeReader.swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QRCodeReader.swift.xcconfig; sourceTree = "<group>"; };
+		AB501B2252947F0A53B8C6AA0AD76906 /* LUAutocompleteView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LUAutocompleteView-prefix.pch"; sourceTree = "<group>"; };
+		ADDE04B26C2C0070CFE2E361AF6386F3 /* LUAutocompleteViewDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LUAutocompleteViewDataSource.swift; path = Sources/LUAutocompleteViewDataSource.swift; sourceTree = "<group>"; };
+		AFE8F2CFD86EE480BB217F1DDD0FA9C6 /* ActionSheetMultipleStringPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetMultipleStringPicker.m; path = Pickers/ActionSheetMultipleStringPicker.m; sourceTree = "<group>"; };
+		B44D67C60F3EEB067B12396C798F1F58 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B946B0AF225DD0274F27FB516CEFE110 /* QRCodeReader.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = QRCodeReader.swift.modulemap; sourceTree = "<group>"; };
 		BBFFEFF13FAD5DC4193F25D431BEDB83 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C4AA6EEA7681D0857D43AB2839856EC8 /* ActionSheetPicker-3.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "ActionSheetPicker-3.0.modulemap"; sourceTree = "<group>"; };
-		CA878900C2D5C3C652BF050425170EB0 /* QRCodeReaderResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderResult.swift; path = Sources/QRCodeReaderResult.swift; sourceTree = "<group>"; };
 		CB87367D9B5B48A3CBB2B5DFD7573959 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D4D5E90C966D043A1DE0ED9455796DF1 /* Pods-AdsumReaderSwift-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AdsumReaderSwift-resources.sh"; sourceTree = "<group>"; };
-		D50C5D5C57D48067570643DA58D59325 /* ActionSheetDistancePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetDistancePicker.m; path = Pickers/ActionSheetDistancePicker.m; sourceTree = "<group>"; };
 		D55E12D893C63ABAE8AD77FFE69C0214 /* Pods-AdsumReaderSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdsumReaderSwift.debug.xcconfig"; sourceTree = "<group>"; };
-		D690243C2029BD5D4F2CAA43B422F75A /* ActionSheetDatePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetDatePicker.m; path = Pickers/ActionSheetDatePicker.m; sourceTree = "<group>"; };
-		DC7BF9AD46389ADACA37E7C4575E5ED5 /* ActionSheetStringPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetStringPicker.h; path = Pickers/ActionSheetStringPicker.h; sourceTree = "<group>"; };
-		DEC94D7C4276DC50C06C120F644CF53F /* ActionSheetPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetPicker.h; path = Pickers/ActionSheetPicker.h; sourceTree = "<group>"; };
-		E22C19C7BD7E67E8699231747108A336 /* QRCodeReaderViewControllerBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderViewControllerBuilder.swift; path = Sources/QRCodeReaderViewControllerBuilder.swift; sourceTree = "<group>"; };
-		EE7D40D361EB3028CFB7C0A18C71F851 /* QRCodeReaderViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderViewControllerDelegate.swift; path = Sources/QRCodeReaderViewControllerDelegate.swift; sourceTree = "<group>"; };
-		F09A525E7DA51245F2CDC7B1E3379773 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F142119212163B4FE63CC8FB76596D20 /* Pods_AdsumReaderSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AdsumReaderSwift.framework; path = "Pods-AdsumReaderSwift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D60E3920C4ABFA3BA25B77C4ED5935A6 /* SWXMLHash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SWXMLHash.framework; path = SWXMLHash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D668D7B32D92BD3FD75AAAC62389B728 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D78B4F12BE6F9E6002C302B1E0EA97C1 /* ActionSheetDistancePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetDistancePicker.h; path = Pickers/ActionSheetDistancePicker.h; sourceTree = "<group>"; };
+		D7D38DA43E528DBA3EA4B02650873003 /* ActionSheetPicker-3.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ActionSheetPicker-3.0-prefix.pch"; sourceTree = "<group>"; };
+		E7DEA42D9C80807E547D5B53D2D5A2FC /* QRCodeReader.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QRCodeReader.swift-prefix.pch"; sourceTree = "<group>"; };
+		EB1730DA903571ED0932EADD13225F55 /* ActionSheetCustomPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetCustomPicker.h; path = Pickers/ActionSheetCustomPicker.h; sourceTree = "<group>"; };
+		EB5C595B8C8F897E5651DB22199101B9 /* QRCodeReaderViewContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderViewContainer.swift; path = Sources/QRCodeReaderViewContainer.swift; sourceTree = "<group>"; };
+		EEFF79B1C6D19D64DC3D28A96C43D46F /* ActionSheetStringPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetStringPicker.m; path = Pickers/ActionSheetStringPicker.m; sourceTree = "<group>"; };
+		F29FB81E88F6CF3CD3782DB932213DF0 /* SWXMLHash.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SWXMLHash.xcconfig; sourceTree = "<group>"; };
 		F45A8C709A9D7255C7B9EE9C83596587 /* Pods-AdsumReaderSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdsumReaderSwift.release.xcconfig"; sourceTree = "<group>"; };
-		F630DFAD6FECAD6CF256C544255DABEF /* QRCodeReaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderView.swift; path = Sources/QRCodeReaderView.swift; sourceTree = "<group>"; };
-		F64DAAE54D293CD68B58FC6FDD6D41B0 /* SWXMLHash.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SWXMLHash.modulemap; sourceTree = "<group>"; };
-		F6748985CFF0E05585527184C9F34737 /* SWXMLHash-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWXMLHash-umbrella.h"; sourceTree = "<group>"; };
-		F928172813FA377F6917F25A37725A7C /* SWXMLHash-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SWXMLHash-dummy.m"; sourceTree = "<group>"; };
+		F61B33B65C07554C05353128E3445548 /* Pods_AdsumReaderSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AdsumReaderSwift.framework; path = "Pods-AdsumReaderSwift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC60FAE72F80C9D54EF3F2BDDFDF311D /* Pods-AdsumReaderSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AdsumReaderSwift-dummy.m"; sourceTree = "<group>"; };
+		FCD74431BAEBFB9BCBFD53B3E75FB7AE /* ActionSheetDistancePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetDistancePicker.m; path = Pickers/ActionSheetDistancePicker.m; sourceTree = "<group>"; };
 		FD3A287BB87F4D3C474EC576926A0F89 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		FF0D1935726F1533115D7FE5DE1B7EAC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF4F57B73DA812AF129A56EA5D2C1220 /* QRCodeReaderViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderViewControllerDelegate.swift; path = Sources/QRCodeReaderViewControllerDelegate.swift; sourceTree = "<group>"; };
+		FFBAA01A469F06BD9ED58675BD51BE9E /* ToggleTorchButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToggleTorchButton.swift; path = Sources/ToggleTorchButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0BC3A41625402DDE31F2D56B97A51D57 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				768344C121535F913D332D6EF04200F8 /* AVFoundation.framework in Frameworks */,
-				0808FFFD7D46A24C513397E728DF228A /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1F05E5120EE2C5F1FE677783918AC2FB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A5FAD052766360BC78592C473DCE46E2 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4854DBB6EDC83735C97A2FCF0F3AF644 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				26E24EE3C2C315B7A5BE2777F8729E02 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		66076240C2ED6C56B870D99D6432B3F4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -185,34 +185,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		68AD792D5AE7313E1C80E4F948074402 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F736BAB71D7DEBEF6C169DB7E04DF117 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCFED30F7C5166E94B2AE6BCDC0C6185 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A82D60FABAEEF16CCD93EDCE8FEC8B7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA64220D015F5CB6B1A68AED6DE5F9E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD3DFFC5AF06F8C61A014AA2F9524D5F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0DC5BC30BAFE301FB06966104C9349F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B21244F6706669D51B5D841B8F0B05B3 /* AVFoundation.framework in Frameworks */,
+				28894D6BB5AF9721208BF773E9F1C412 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		039F06CADAEAED00119DB509AE2D3A34 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				01E4097C84B06D13BBE51FEA5E94EBF9 /* ActionSheetPicker_3_0.framework */,
-				F142119212163B4FE63CC8FB76596D20 /* Pods_AdsumReaderSwift.framework */,
-				8C7952303D1F5C2EC854B37517B5FB5F /* QRCodeReader.framework */,
-				12034696E16422AF28DDC1E49F2F2888 /* SWXMLHash.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		0DD2E222CC2D04DDB7694104204CE96C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				017E664FBA50B7D273F7C71F01D9FBF6 /* Info.plist */,
-				F64DAAE54D293CD68B58FC6FDD6D41B0 /* SWXMLHash.modulemap */,
-				7A3F4CABC5978BEFBEDB3EA94F65D460 /* SWXMLHash.xcconfig */,
-				F928172813FA377F6917F25A37725A7C /* SWXMLHash-dummy.m */,
-				70920119AD33406737DAF5F3DB6A77C6 /* SWXMLHash-prefix.pch */,
-				F6748985CFF0E05585527184C9F34737 /* SWXMLHash-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SWXMLHash";
-			sourceTree = "<group>";
-		};
 		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -221,49 +229,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		248983EA44421D1738300EE24EB2D95E /* ActionSheetPicker-3.0 */ = {
+		66EA7EEED0DE8B2FEA46FBDD0D25ED4A /* QRCodeReader.swift */ = {
 			isa = PBXGroup;
 			children = (
-				23CC0D24A68D5FD7053B65371D082114 /* AbstractActionSheetPicker.h */,
-				5E70BAEA7FFF2F406D833CF792A0ED29 /* AbstractActionSheetPicker.m */,
-				BBF7D03BB794B57CCA691C35157D5A08 /* ActionSheetCustomPicker.h */,
-				694DECE8CADF145D924DE45C136CE888 /* ActionSheetCustomPicker.m */,
-				AD57BB20320491DC6651A933925C77DD /* ActionSheetCustomPickerDelegate.h */,
-				8A013ECB73D2F4BF3EA349B8FB016773 /* ActionSheetDatePicker.h */,
-				D690243C2029BD5D4F2CAA43B422F75A /* ActionSheetDatePicker.m */,
-				47C60F5FCDB096C2CACDE45252687B4B /* ActionSheetDistancePicker.h */,
-				D50C5D5C57D48067570643DA58D59325 /* ActionSheetDistancePicker.m */,
-				36393F7CC3032AA890A10EC788A898EB /* ActionSheetLocalePicker.h */,
-				8E12AC16FC73C7689F49DD7C95527650 /* ActionSheetLocalePicker.m */,
-				1279B3B2E8F147A027C0C89EEA32F342 /* ActionSheetMultipleStringPicker.h */,
-				3FDB4B11781585AA1B8285FEDFF6953E /* ActionSheetMultipleStringPicker.m */,
-				DEC94D7C4276DC50C06C120F644CF53F /* ActionSheetPicker.h */,
-				DC7BF9AD46389ADACA37E7C4575E5ED5 /* ActionSheetStringPicker.h */,
-				1CD9EAC0A3876155CFEBB82AF83D0ED9 /* ActionSheetStringPicker.m */,
-				1FF08B7E40EFFBCF5AB28498D0782AD9 /* DistancePickerView.h */,
-				83D5081C69B25C6389BE817C54FA6D0A /* DistancePickerView.m */,
-				9572B2EC49ABB71086BF2CEABC3417B5 /* SWActionSheet.h */,
-				4D628F55ADD15F07DF8852A8E3FC6D2D /* SWActionSheet.m */,
-				A63963495786A1367E00244C742BFBBA /* Support Files */,
-			);
-			name = "ActionSheetPicker-3.0";
-			path = "ActionSheetPicker-3.0";
-			sourceTree = "<group>";
-		};
-		528AACE778031B3A6F1989959C1083BE /* QRCodeReader.swift */ = {
-			isa = PBXGroup;
-			children = (
-				553309159CB0F99C737DF679049FC8C4 /* QRCodeReader.swift */,
-				CA878900C2D5C3C652BF050425170EB0 /* QRCodeReaderResult.swift */,
-				F630DFAD6FECAD6CF256C544255DABEF /* QRCodeReaderView.swift */,
-				34CC2A9E6BABBEF894D4327918D6CB7F /* QRCodeReaderViewContainer.swift */,
-				4D224009DD6C9EBEE95225E675042746 /* QRCodeReaderViewController.swift */,
-				E22C19C7BD7E67E8699231747108A336 /* QRCodeReaderViewControllerBuilder.swift */,
-				EE7D40D361EB3028CFB7C0A18C71F851 /* QRCodeReaderViewControllerDelegate.swift */,
-				035F2EC391964B3D99C7898C3E5221B4 /* ReaderOverlayView.swift */,
-				2C96DA74FA2286D930F94A301983BBE4 /* SwitchCameraButton.swift */,
-				830ACA4AA886176396B17A77614074D1 /* ToggleTorchButton.swift */,
-				D269BE0C936B9A1A11D43667F77ED6AE /* Support Files */,
+				3AD3557AC8168AC9DEA3E43113EA4A7E /* QRCodeReader.swift */,
+				4C6CA0C7D3F77431DB661D41A845C5CB /* QRCodeReaderResult.swift */,
+				7C07C2C67515FC5A887815D01C5DDC69 /* QRCodeReaderView.swift */,
+				EB5C595B8C8F897E5651DB22199101B9 /* QRCodeReaderViewContainer.swift */,
+				93311D04C25CF47BAA0877A39F389D5E /* QRCodeReaderViewController.swift */,
+				60E0FEACDA1D333E9A6A8588E717E9C5 /* QRCodeReaderViewControllerBuilder.swift */,
+				FF4F57B73DA812AF129A56EA5D2C1220 /* QRCodeReaderViewControllerDelegate.swift */,
+				8A1B01A409BAAF79454F9AA728F55A85 /* ReaderOverlayView.swift */,
+				81E034870028D8ADB6AD709BF05DC3E8 /* SwitchCameraButton.swift */,
+				FFBAA01A469F06BD9ED58675BD51BE9E /* ToggleTorchButton.swift */,
+				FFA7869C78AEDA978A72D646B908241C /* Support Files */,
 			);
 			name = QRCodeReader.swift;
 			path = QRCodeReader.swift;
@@ -297,25 +276,27 @@
 			path = "Target Support Files/Pods-AdsumReaderSwift";
 			sourceTree = "<group>";
 		};
-		7AB358860E03E973E941647E126E6D1C /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				248983EA44421D1738300EE24EB2D95E /* ActionSheetPicker-3.0 */,
-				528AACE778031B3A6F1989959C1083BE /* QRCodeReader.swift */,
-				E1AEE37C1BA0AAB00B6E291819B78711 /* SWXMLHash */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
-				7AB358860E03E973E941647E126E6D1C /* Pods */,
-				039F06CADAEAED00119DB509AE2D3A34 /* Products */,
+				B248BCF21B9ADE97F4D98644AA37B559 /* Pods */,
+				7E9C758582B180D80EA0144871F8E0E9 /* Products */,
 				8E242275937855A2470BE61314F9479D /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		7E9C758582B180D80EA0144871F8E0E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50D9626A216716B5D510EE14B39CD725 /* ActionSheetPicker_3_0.framework */,
+				0BCE2AFA73202D0FADCB6EFB9C75A15C /* LUAutocompleteView.framework */,
+				F61B33B65C07554C05353128E3445548 /* Pods_AdsumReaderSwift.framework */,
+				6953C7B5048210F208DE5570271CA51D /* QRCodeReader.framework */,
+				D60E3920C4ABFA3BA25B77C4ED5935A6 /* SWXMLHash.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		8E242275937855A2470BE61314F9479D /* Targets Support Files */ = {
@@ -326,56 +307,129 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		A63963495786A1367E00244C742BFBBA /* Support Files */ = {
+		92265B0780584B16C49A09888B74D017 /* SWXMLHash */ = {
 			isa = PBXGroup;
 			children = (
-				C4AA6EEA7681D0857D43AB2839856EC8 /* ActionSheetPicker-3.0.modulemap */,
-				6E05B030E7C0CC1B6BA232ECEF1BB206 /* ActionSheetPicker-3.0.xcconfig */,
-				10415D7171F4DCFA521695DCB1FCFD5F /* ActionSheetPicker-3.0-dummy.m */,
-				03460FF17F0C0B8FE81B2E47FED3303F /* ActionSheetPicker-3.0-prefix.pch */,
-				55F15A8BA08089CE5C95B7CB25428E22 /* ActionSheetPicker-3.0-umbrella.h */,
-				F09A525E7DA51245F2CDC7B1E3379773 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/ActionSheetPicker-3.0";
-			sourceTree = "<group>";
-		};
-		D269BE0C936B9A1A11D43667F77ED6AE /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FF0D1935726F1533115D7FE5DE1B7EAC /* Info.plist */,
-				A5AC63046A16BCDD243091F6D1BEA19E /* QRCodeReader.swift.modulemap */,
-				B9293DD05B432E90D4928A932222B347 /* QRCodeReader.swift.xcconfig */,
-				873C9205900037C1EB65F4755A3B062C /* QRCodeReader.swift-dummy.m */,
-				7B533D62D7C94127E1870BD7E6A345A3 /* QRCodeReader.swift-prefix.pch */,
-				AC83282604369320AB95AA9E536954E0 /* QRCodeReader.swift-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/QRCodeReader.swift";
-			sourceTree = "<group>";
-		};
-		E1AEE37C1BA0AAB00B6E291819B78711 /* SWXMLHash */ = {
-			isa = PBXGroup;
-			children = (
-				100548DFF35FA0F8455C1EF173D0DD41 /* SWXMLHash.swift */,
-				63609FDBF5C364EC820C233F619AC51B /* SWXMLHash+TypeConversion.swift */,
-				0DD2E222CC2D04DDB7694104204CE96C /* Support Files */,
+				25806A47F2A7FEAF3609A05562B35743 /* SWXMLHash.swift */,
+				254FA954FA7FF8965BA87B20F7B00767 /* SWXMLHash+TypeConversion.swift */,
+				C8D69DFFA805268339987284E6A3D85C /* Support Files */,
 			);
 			name = SWXMLHash;
 			path = SWXMLHash;
 			sourceTree = "<group>";
 		};
+		9F2D3C00D25A9CD9285FEC6739C49252 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D668D7B32D92BD3FD75AAAC62389B728 /* Info.plist */,
+				2925E4AD2966B7612C5224A475ACDF4F /* LUAutocompleteView.modulemap */,
+				1666406F0BDF180D9CCE9745B9991A89 /* LUAutocompleteView.xcconfig */,
+				399222E7A491C45AE4CB3A2F1A1701D3 /* LUAutocompleteView-dummy.m */,
+				AB501B2252947F0A53B8C6AA0AD76906 /* LUAutocompleteView-prefix.pch */,
+				497AF33ABE2DC3394C84A66CE7DD124D /* LUAutocompleteView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LUAutocompleteView";
+			sourceTree = "<group>";
+		};
+		A2C8197FDB1F7130F55D74719D858B2A /* ActionSheetPicker-3.0 */ = {
+			isa = PBXGroup;
+			children = (
+				53F82C888331C2EDD35C61A6AD5B9E81 /* AbstractActionSheetPicker.h */,
+				73FA69DB5F145D725DF44B7F94B10043 /* AbstractActionSheetPicker.m */,
+				EB1730DA903571ED0932EADD13225F55 /* ActionSheetCustomPicker.h */,
+				92B5503A4F6505CB42F94BFF081487C8 /* ActionSheetCustomPicker.m */,
+				9AB8853D4F79C87BFE6D113D16F800F8 /* ActionSheetCustomPickerDelegate.h */,
+				2B91B2B58DA02C249E93DD5F7EF02991 /* ActionSheetDatePicker.h */,
+				081075E60E403443716E683CCC477AE1 /* ActionSheetDatePicker.m */,
+				D78B4F12BE6F9E6002C302B1E0EA97C1 /* ActionSheetDistancePicker.h */,
+				FCD74431BAEBFB9BCBFD53B3E75FB7AE /* ActionSheetDistancePicker.m */,
+				9DB4439E85B5798E560FF6579D225925 /* ActionSheetLocalePicker.h */,
+				00DB598842E5408CA3494A112C307BA2 /* ActionSheetLocalePicker.m */,
+				93A8220B5105576F75731312C4C0CE24 /* ActionSheetMultipleStringPicker.h */,
+				AFE8F2CFD86EE480BB217F1DDD0FA9C6 /* ActionSheetMultipleStringPicker.m */,
+				23FA360D5F35371D1B5FEC7AE53124B2 /* ActionSheetPicker.h */,
+				9219577180D95E9FECC787ACB80567BC /* ActionSheetStringPicker.h */,
+				EEFF79B1C6D19D64DC3D28A96C43D46F /* ActionSheetStringPicker.m */,
+				9028D78DC1B983DA2D990058089F6E4D /* DistancePickerView.h */,
+				427A1752F67BEB0F350B0F1C824578A8 /* DistancePickerView.m */,
+				76CD2634479506CB019E4BEC7CC14334 /* SWActionSheet.h */,
+				89C41F75847B0617A7277711798F73F9 /* SWActionSheet.m */,
+				D6B02A61D7434D72C552AA8CF3D3B9B2 /* Support Files */,
+			);
+			name = "ActionSheetPicker-3.0";
+			path = "ActionSheetPicker-3.0";
+			sourceTree = "<group>";
+		};
+		B248BCF21B9ADE97F4D98644AA37B559 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2C8197FDB1F7130F55D74719D858B2A /* ActionSheetPicker-3.0 */,
+				F903DEE55185E6DEA8B1DB9C69B70E3E /* LUAutocompleteView */,
+				66EA7EEED0DE8B2FEA46FBDD0D25ED4A /* QRCodeReader.swift */,
+				92265B0780584B16C49A09888B74D017 /* SWXMLHash */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C8D69DFFA805268339987284E6A3D85C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				126692A00BF342F1AFB2F1E9DE77F479 /* Info.plist */,
+				3439D13255A3256F91736C680FF06B63 /* SWXMLHash.modulemap */,
+				F29FB81E88F6CF3CD3782DB932213DF0 /* SWXMLHash.xcconfig */,
+				16A6B68193FCC030EE64DCBBA28BD290 /* SWXMLHash-dummy.m */,
+				500B79EA4316B2C095155EB2E3D9D403 /* SWXMLHash-prefix.pch */,
+				0C5BF52A7B40B93DA665B6C1576F7732 /* SWXMLHash-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SWXMLHash";
+			sourceTree = "<group>";
+		};
+		D6B02A61D7434D72C552AA8CF3D3B9B2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				53016FF09BC8837BACA9943BB3B17FB6 /* ActionSheetPicker-3.0.modulemap */,
+				950133F23A97A1ED48EEDE49013FF480 /* ActionSheetPicker-3.0.xcconfig */,
+				218C045BA12D384E35275E3FA4CC2BF9 /* ActionSheetPicker-3.0-dummy.m */,
+				D7D38DA43E528DBA3EA4B02650873003 /* ActionSheetPicker-3.0-prefix.pch */,
+				81869FF5010949E07FD64661C267926F /* ActionSheetPicker-3.0-umbrella.h */,
+				334348F7FD0B684306951EE49DFB3E75 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ActionSheetPicker-3.0";
+			sourceTree = "<group>";
+		};
+		F903DEE55185E6DEA8B1DB9C69B70E3E /* LUAutocompleteView */ = {
+			isa = PBXGroup;
+			children = (
+				1CAB74723AD8D221E277D4A1E33F9F70 /* LUAutocompleteTableViewCell.swift */,
+				88EED932EC58288EEDB1D63E549D3861 /* LUAutocompleteView.swift */,
+				ADDE04B26C2C0070CFE2E361AF6386F3 /* LUAutocompleteViewDataSource.swift */,
+				49A0583AA73AEC89E3A210BF420AFE29 /* LUAutocompleteViewDelegate.swift */,
+				9F2D3C00D25A9CD9285FEC6739C49252 /* Support Files */,
+			);
+			name = LUAutocompleteView;
+			path = LUAutocompleteView;
+			sourceTree = "<group>";
+		};
+		FFA7869C78AEDA978A72D646B908241C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B44D67C60F3EEB067B12396C798F1F58 /* Info.plist */,
+				B946B0AF225DD0274F27FB516CEFE110 /* QRCodeReader.swift.modulemap */,
+				A2BEAF40F860A1779E6658DE75747D0A /* QRCodeReader.swift.xcconfig */,
+				8143259ECA6122A155307C09F42B93DC /* QRCodeReader.swift-dummy.m */,
+				E7DEA42D9C80807E547D5B53D2D5A2FC /* QRCodeReader.swift-prefix.pch */,
+				A1364D07C5A659A9C9E953E8847A0D77 /* QRCodeReader.swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/QRCodeReader.swift";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1955327D0EECD19A78BD7DB65741B757 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2D853F373D5E3B4647AB4E70A833475C /* QRCodeReader.swift-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7168AF4B49EE1459BCE8AC958F7EC526 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -395,32 +449,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		826E5B0CCC1A214691D9BB505EE17EA4 /* Headers */ = {
+		91655364BBD08F6764ECB4274EA9017E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01AB66CE5AF100D2AF85D42059115FD1 /* Pods-AdsumReaderSwift-umbrella.h in Headers */,
+				3A47485A66100545751553D9EBA2BE3D /* LUAutocompleteView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A5F10F884C215E795A84438316AD1D77 /* Headers */ = {
+		B65B798784D9FC84BC59429011DF94EA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7D6203E859EE706CDF9F516E1E89E31 /* SWXMLHash-umbrella.h in Headers */,
+				B0D1DFD11CEB2FD3C62E793257BFE0CC /* SWXMLHash-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F300AF31A06176571F5CCF30D2C9467E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6930B86CE3B547054C1FBC66AFE93FFA /* Pods-AdsumReaderSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5818CEEDCA1977A6A9E6DF1F0D3A687 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC597AAAA94B7327A5A803C10712BE95 /* QRCodeReader.swift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		91962514F9593BD188D38C30CA21B586 /* SWXMLHash */ = {
+		42EB802DCE41799F193A9474C564F486 /* SWXMLHash */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 99FA857283515A19976D2BB4149A7906 /* Build configuration list for PBXNativeTarget "SWXMLHash" */;
+			buildConfigurationList = B5CAC386AF33DFCD788B12DA4CEDFEED /* Build configuration list for PBXNativeTarget "SWXMLHash" */;
 			buildPhases = (
-				6DD181CC6AC6D39B205EE4C947F99E6D /* Sources */,
-				4854DBB6EDC83735C97A2FCF0F3AF644 /* Frameworks */,
-				A5F10F884C215E795A84438316AD1D77 /* Headers */,
+				99153BA12CF1E7F46FADF59EB6CD77E1 /* Sources */,
+				DA64220D015F5CB6B1A68AED6DE5F9E7 /* Frameworks */,
+				B65B798784D9FC84BC59429011DF94EA /* Headers */,
 			);
 			buildRules = (
 			);
@@ -428,7 +498,45 @@
 			);
 			name = SWXMLHash;
 			productName = SWXMLHash;
-			productReference = 12034696E16422AF28DDC1E49F2F2888 /* SWXMLHash.framework */;
+			productReference = D60E3920C4ABFA3BA25B77C4ED5935A6 /* SWXMLHash.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		50C90C2357D0BB665105969BA45445C4 /* Pods-AdsumReaderSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8668D7E30940C02C09C33A268F11DBDB /* Build configuration list for PBXNativeTarget "Pods-AdsumReaderSwift" */;
+			buildPhases = (
+				19BE7B1CC7D2F2EC46322434B633E5CC /* Sources */,
+				CCFED30F7C5166E94B2AE6BCDC0C6185 /* Frameworks */,
+				F300AF31A06176571F5CCF30D2C9467E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F765A10F0C4F9802AF33DD79B4018C2 /* PBXTargetDependency */,
+				635EE822CDC449B7D27B88F1890CF7F6 /* PBXTargetDependency */,
+				51FD16CC70771E5E9354BCB001DEE342 /* PBXTargetDependency */,
+				14B55A0D47B3E5EDE6B5708B1369EEFA /* PBXTargetDependency */,
+			);
+			name = "Pods-AdsumReaderSwift";
+			productName = "Pods-AdsumReaderSwift";
+			productReference = F61B33B65C07554C05353128E3445548 /* Pods_AdsumReaderSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5DEC2B99E1BDCCB27204D88B9E8746C1 /* LUAutocompleteView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4528E5AEF33D47C80613206AE168F97 /* Build configuration list for PBXNativeTarget "LUAutocompleteView" */;
+			buildPhases = (
+				31A9ECB45DBFCD21B9B023CCA258615A /* Sources */,
+				68AD792D5AE7313E1C80E4F948074402 /* Frameworks */,
+				91655364BBD08F6764ECB4274EA9017E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LUAutocompleteView;
+			productName = LUAutocompleteView;
+			productReference = 0BCE2AFA73202D0FADCB6EFB9C75A15C /* LUAutocompleteView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		965699190112DDBD9B7864D091660DBC /* ActionSheetPicker-3.0 */ = {
@@ -445,16 +553,16 @@
 			);
 			name = "ActionSheetPicker-3.0";
 			productName = "ActionSheetPicker-3.0";
-			productReference = 01E4097C84B06D13BBE51FEA5E94EBF9 /* ActionSheetPicker_3_0.framework */;
+			productReference = 50D9626A216716B5D510EE14B39CD725 /* ActionSheetPicker_3_0.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BE1F7170DC29E2354386BBE852F75D44 /* QRCodeReader.swift */ = {
+		DA2ACC26A80F2E43AC1C6782C7BF64FF /* QRCodeReader.swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E047233D33459CDB56C593439785B702 /* Build configuration list for PBXNativeTarget "QRCodeReader.swift" */;
+			buildConfigurationList = 2F6263BAAE9DCD146E4A2A9B5961C1D6 /* Build configuration list for PBXNativeTarget "QRCodeReader.swift" */;
 			buildPhases = (
-				065FB39587B3BB555C208969C231A863 /* Sources */,
-				0BC3A41625402DDE31F2D56B97A51D57 /* Frameworks */,
-				1955327D0EECD19A78BD7DB65741B757 /* Headers */,
+				E0539BBBDF021BBC7383F85B4CA33996 /* Sources */,
+				F0DC5BC30BAFE301FB06966104C9349F /* Frameworks */,
+				F5818CEEDCA1977A6A9E6DF1F0D3A687 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -462,27 +570,7 @@
 			);
 			name = QRCodeReader.swift;
 			productName = QRCodeReader.swift;
-			productReference = 8C7952303D1F5C2EC854B37517B5FB5F /* QRCodeReader.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		DD9DF6EBBBFCD1B7E045E59C721C59D0 /* Pods-AdsumReaderSwift */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9F61C13B83FF6DB4377603FA5D0B5241 /* Build configuration list for PBXNativeTarget "Pods-AdsumReaderSwift" */;
-			buildPhases = (
-				7B97BA19A60DB36A1F45941480D8C803 /* Sources */,
-				1F05E5120EE2C5F1FE677783918AC2FB /* Frameworks */,
-				826E5B0CCC1A214691D9BB505EE17EA4 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				08B71ED0F9B2DA52C165F2FDF8885F32 /* PBXTargetDependency */,
-				EC04EDFAAE0A94D5C55FC62FDC448348 /* PBXTargetDependency */,
-				2850F3962699C0DF843276E5C1FEABF8 /* PBXTargetDependency */,
-			);
-			name = "Pods-AdsumReaderSwift";
-			productName = "Pods-AdsumReaderSwift";
-			productReference = F142119212163B4FE63CC8FB76596D20 /* Pods_AdsumReaderSwift.framework */;
+			productReference = 6953C7B5048210F208DE5570271CA51D /* QRCodeReader.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -502,52 +590,37 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 039F06CADAEAED00119DB509AE2D3A34 /* Products */;
+			productRefGroup = 7E9C758582B180D80EA0144871F8E0E9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				965699190112DDBD9B7864D091660DBC /* ActionSheetPicker-3.0 */,
-				DD9DF6EBBBFCD1B7E045E59C721C59D0 /* Pods-AdsumReaderSwift */,
-				BE1F7170DC29E2354386BBE852F75D44 /* QRCodeReader.swift */,
-				91962514F9593BD188D38C30CA21B586 /* SWXMLHash */,
+				5DEC2B99E1BDCCB27204D88B9E8746C1 /* LUAutocompleteView */,
+				50C90C2357D0BB665105969BA45445C4 /* Pods-AdsumReaderSwift */,
+				DA2ACC26A80F2E43AC1C6782C7BF64FF /* QRCodeReader.swift */,
+				42EB802DCE41799F193A9474C564F486 /* SWXMLHash */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		065FB39587B3BB555C208969C231A863 /* Sources */ = {
+		19BE7B1CC7D2F2EC46322434B633E5CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				972BCAE780A1E7276D1C23D8D3B49075 /* QRCodeReader.swift in Sources */,
-				6A24F508FB326D66EFC4987F1A09D40F /* QRCodeReader.swift-dummy.m in Sources */,
-				A3F7D9A89AC1EC1045E8DA918F192763 /* QRCodeReaderResult.swift in Sources */,
-				EBB4DB93E93766F07D36BE272E11E2A5 /* QRCodeReaderView.swift in Sources */,
-				CB37B119CCFCC5B0EE87DF1E209F4332 /* QRCodeReaderViewContainer.swift in Sources */,
-				AD61C011A7D98B0134FBF395B90796A5 /* QRCodeReaderViewController.swift in Sources */,
-				4BD06D2BFA774326E896A4C4D5159195 /* QRCodeReaderViewControllerBuilder.swift in Sources */,
-				7A7BC02422CDED68D4A64A0EE2D61028 /* QRCodeReaderViewControllerDelegate.swift in Sources */,
-				2B2B5C568525F760C9EDAACC7C3D665C /* ReaderOverlayView.swift in Sources */,
-				3C15B44E26D3C17DBA7AC5656DE86A38 /* SwitchCameraButton.swift in Sources */,
-				1389A1A3E53CE2D3643BB43DDD515650 /* ToggleTorchButton.swift in Sources */,
+				4A2BD4E5D98C6789BF5D806DB8913A1A /* Pods-AdsumReaderSwift-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6DD181CC6AC6D39B205EE4C947F99E6D /* Sources */ = {
+		31A9ECB45DBFCD21B9B023CCA258615A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D31FEBEE111408B4FBBF3B36B06EBBF3 /* SWXMLHash+TypeConversion.swift in Sources */,
-				979D870890FEDCD7EC4692418DF47551 /* SWXMLHash-dummy.m in Sources */,
-				16A9C320C0A1EDD2562F2D8183399FF8 /* SWXMLHash.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7B97BA19A60DB36A1F45941480D8C803 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7A7191A5A23A64E1A3982D91C17B18B5 /* Pods-AdsumReaderSwift-dummy.m in Sources */,
+				7A8A487D32F115DCC1B6218E1CB1EEEF /* LUAutocompleteTableViewCell.swift in Sources */,
+				0C4CA1B1F646F071A91C5632D32714FA /* LUAutocompleteView-dummy.m in Sources */,
+				C6DA4AB78957C9FC5EFC4677925CE227 /* LUAutocompleteView.swift in Sources */,
+				6574E60DA36A7E6C29A1252FC6CAB779 /* LUAutocompleteViewDataSource.swift in Sources */,
+				52AEA79EF030A07DE05DE9BC9D0750B6 /* LUAutocompleteViewDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -568,33 +641,67 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		99153BA12CF1E7F46FADF59EB6CD77E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5089A9A9EB9A610D9304D7EF85F518B1 /* SWXMLHash+TypeConversion.swift in Sources */,
+				D6579DCD7EF99F3CA5A5C3517369E0C1 /* SWXMLHash-dummy.m in Sources */,
+				43CEF5AA2E895BE98AEF8A9693CB7598 /* SWXMLHash.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0539BBBDF021BBC7383F85B4CA33996 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				923F58ECF47770523FE1CF854B6ACB30 /* QRCodeReader.swift in Sources */,
+				2659569ADFE410C63EAFF98865BCA39F /* QRCodeReader.swift-dummy.m in Sources */,
+				5AA80EF014463012AD55C12878A3ADB9 /* QRCodeReaderResult.swift in Sources */,
+				B57692AA78D1840B9B5ADABBB0FE5114 /* QRCodeReaderView.swift in Sources */,
+				FFA5A8FFDED7DE41881F5146B94289DB /* QRCodeReaderViewContainer.swift in Sources */,
+				7B9F4C3F5A7E46BF280241B3094B802E /* QRCodeReaderViewController.swift in Sources */,
+				0DD01F53040666A8CB1C542CCF9CFD45 /* QRCodeReaderViewControllerBuilder.swift in Sources */,
+				B78F42D4C391A48FE9D4992FF8E891E7 /* QRCodeReaderViewControllerDelegate.swift in Sources */,
+				50199A6A5B2000E28A39B0C56DD25190 /* ReaderOverlayView.swift in Sources */,
+				9CEFEF0249B3C3CEA53E1236C53C53ED /* SwitchCameraButton.swift in Sources */,
+				3A43F3DCB63AC706EB87554C0ECC1C32 /* ToggleTorchButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		08B71ED0F9B2DA52C165F2FDF8885F32 /* PBXTargetDependency */ = {
+		14B55A0D47B3E5EDE6B5708B1369EEFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SWXMLHash;
+			target = 42EB802DCE41799F193A9474C564F486 /* SWXMLHash */;
+			targetProxy = 4F2AB0FE57D0C67DF333491C8A69AE50 /* PBXContainerItemProxy */;
+		};
+		51FD16CC70771E5E9354BCB001DEE342 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QRCodeReader.swift;
+			target = DA2ACC26A80F2E43AC1C6782C7BF64FF /* QRCodeReader.swift */;
+			targetProxy = 6E1582F1E626A6B75AEAB34D35BC5A30 /* PBXContainerItemProxy */;
+		};
+		635EE822CDC449B7D27B88F1890CF7F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LUAutocompleteView;
+			target = 5DEC2B99E1BDCCB27204D88B9E8746C1 /* LUAutocompleteView */;
+			targetProxy = 2126B23EE88A49E6DFFB90D9F5C2121F /* PBXContainerItemProxy */;
+		};
+		7F765A10F0C4F9802AF33DD79B4018C2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "ActionSheetPicker-3.0";
 			target = 965699190112DDBD9B7864D091660DBC /* ActionSheetPicker-3.0 */;
-			targetProxy = 12160BE6502D3DBA91B6024FD4BE08D6 /* PBXContainerItemProxy */;
-		};
-		2850F3962699C0DF843276E5C1FEABF8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SWXMLHash;
-			target = 91962514F9593BD188D38C30CA21B586 /* SWXMLHash */;
-			targetProxy = 26A3BAFA13756A2CE33B6F7E1F82FB1C /* PBXContainerItemProxy */;
-		};
-		EC04EDFAAE0A94D5C55FC62FDC448348 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = QRCodeReader.swift;
-			target = BE1F7170DC29E2354386BBE852F75D44 /* QRCodeReader.swift */;
-			targetProxy = D47372081A2C864F4CEDDCF56F490119 /* PBXContainerItemProxy */;
+			targetProxy = 5E23ACBB7EA4139B0EBAC7C8542B1FDA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		10F28B04C953425060E1F98E2E36CCB9 /* Debug */ = {
+		0612670E9F5C23E69E583CDC75BDB7D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9293DD05B432E90D4928A932222B347 /* QRCodeReader.swift.xcconfig */;
+			baseConfigurationReference = D55E12D893C63ABAE8AD77FFE69C0214 /* Pods-AdsumReaderSwift.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -605,27 +712,30 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/QRCodeReader.swift/QRCodeReader.swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/QRCodeReader.swift/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-AdsumReaderSwift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/QRCodeReader.swift/QRCodeReader.swift.modulemap";
-				PRODUCT_NAME = QRCodeReader;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AdsumReaderSwift/Pods-AdsumReaderSwift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AdsumReaderSwift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		27AD5B62FA6A1EEF5CEAF382C3AE008E /* Release */ = {
+		0F3AADCF6795E569B8407181CE54893B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9293DD05B432E90D4928A932222B347 /* QRCodeReader.swift.xcconfig */;
+			baseConfigurationReference = A2BEAF40F860A1779E6658DE75747D0A /* QRCodeReader.swift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -655,9 +765,9 @@
 			};
 			name = Release;
 		};
-		3168F14F634CC2AF0F8FF375E0EA3BCF /* Debug */ = {
+		17832D654A5F3650F8B32CAB7DADFC83 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A3F4CABC5978BEFBEDB3EA94F65D460 /* SWXMLHash.xcconfig */;
+			baseConfigurationReference = 1666406F0BDF180D9CCE9745B9991A89 /* LUAutocompleteView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -668,13 +778,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SWXMLHash/SWXMLHash-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SWXMLHash/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/LUAutocompleteView/LUAutocompleteView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LUAutocompleteView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SWXMLHash/SWXMLHash.modulemap";
-				PRODUCT_NAME = SWXMLHash;
+				MODULEMAP_FILE = "Target Support Files/LUAutocompleteView/LUAutocompleteView.modulemap";
+				PRODUCT_NAME = LUAutocompleteView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -686,100 +796,7 @@
 			};
 			name = Debug;
 		};
-		6195472D206030DFE2DCBC1ABA72B801 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A3F4CABC5978BEFBEDB3EA94F65D460 /* SWXMLHash.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SWXMLHash/SWXMLHash-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SWXMLHash/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SWXMLHash/SWXMLHash.modulemap";
-				PRODUCT_NAME = SWXMLHash;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7032980DDC1470188FFB3D11F6473E4A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6E05B030E7C0CC1B6BA232ECEF1BB206 /* ActionSheetPicker-3.0.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ActionSheetPicker-3.0/ActionSheetPicker-3.0-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ActionSheetPicker-3.0/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ActionSheetPicker-3.0/ActionSheetPicker-3.0.modulemap";
-				PRODUCT_NAME = ActionSheetPicker_3_0;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A520FCB81E0163DFED6F8812238B5B4A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6E05B030E7C0CC1B6BA232ECEF1BB206 /* ActionSheetPicker-3.0.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ActionSheetPicker-3.0/ActionSheetPicker-3.0-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ActionSheetPicker-3.0/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ActionSheetPicker-3.0/ActionSheetPicker-3.0.modulemap";
-				PRODUCT_NAME = ActionSheetPicker_3_0;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		AABA11B24044CE368F4DC704D12439E7 /* Release */ = {
+		190F148BC533E3007120613A92C03D6A /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F45A8C709A9D7255C7B9EE9C83596587 /* Pods-AdsumReaderSwift.release.xcconfig */;
 			buildSettings = {
@@ -794,7 +811,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-AdsumReaderSwift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-AdsumReaderSwift/Pods-AdsumReaderSwift.modulemap";
@@ -813,62 +830,101 @@
 			};
 			name = Release;
 		};
-		B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */ = {
+		1A5E6D2B367F3CC3062F7B290F7FAEEF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1666406F0BDF180D9CCE9745B9991A89 /* LUAutocompleteView.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LUAutocompleteView/LUAutocompleteView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LUAutocompleteView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LUAutocompleteView/LUAutocompleteView.modulemap";
+				PRODUCT_NAME = LUAutocompleteView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */ = {
+		1C98CAE9851A6469622519D0C81F1F68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F29FB81E88F6CF3CD3782DB932213DF0 /* SWXMLHash.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SWXMLHash/SWXMLHash-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SWXMLHash/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SWXMLHash/SWXMLHash.modulemap";
+				PRODUCT_NAME = SWXMLHash;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7032980DDC1470188FFB3D11F6473E4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 950133F23A97A1ED48EEDE49013FF480 /* ActionSheetPicker-3.0.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ActionSheetPicker-3.0/ActionSheetPicker-3.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ActionSheetPicker-3.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ActionSheetPicker-3.0/ActionSheetPicker-3.0.modulemap";
+				PRODUCT_NAME = ActionSheetPicker_3_0;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7C07ED8089F70A31B83996A8910D7F18 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -917,7 +973,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -928,9 +984,64 @@
 			};
 			name = Debug;
 		};
-		EFD7775DE172BA32D6719CA16C273302 /* Debug */ = {
+		98F29E7567052F62660DDD7069ADF73C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D55E12D893C63ABAE8AD77FFE69C0214 /* Pods-AdsumReaderSwift.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A520FCB81E0163DFED6F8812238B5B4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 950133F23A97A1ED48EEDE49013FF480 /* ActionSheetPicker-3.0.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -941,26 +1052,85 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AdsumReaderSwift/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/ActionSheetPicker-3.0/ActionSheetPicker-3.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ActionSheetPicker-3.0/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AdsumReaderSwift/Pods-AdsumReaderSwift.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_AdsumReaderSwift;
+				MODULEMAP_FILE = "Target Support Files/ActionSheetPicker-3.0/ActionSheetPicker-3.0.modulemap";
+				PRODUCT_NAME = ActionSheetPicker_3_0;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		BA2EDBC2A468738B026530F1B2A461B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2BEAF40F860A1779E6658DE75747D0A /* QRCodeReader.swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QRCodeReader.swift/QRCodeReader.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QRCodeReader.swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QRCodeReader.swift/QRCodeReader.swift.modulemap";
+				PRODUCT_NAME = QRCodeReader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BD530D5497889199EE9BB32567D7FC99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F29FB81E88F6CF3CD3782DB932213DF0 /* SWXMLHash.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SWXMLHash/SWXMLHash-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SWXMLHash/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SWXMLHash/SWXMLHash.modulemap";
+				PRODUCT_NAME = SWXMLHash;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -968,8 +1138,17 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */,
-				B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */,
+				7C07ED8089F70A31B83996A8910D7F18 /* Debug */,
+				98F29E7567052F62660DDD7069ADF73C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F6263BAAE9DCD146E4A2A9B5961C1D6 /* Build configuration list for PBXNativeTarget "QRCodeReader.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA2EDBC2A468738B026530F1B2A461B4 /* Debug */,
+				0F3AADCF6795E569B8407181CE54893B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -983,29 +1162,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		99FA857283515A19976D2BB4149A7906 /* Build configuration list for PBXNativeTarget "SWXMLHash" */ = {
+		8668D7E30940C02C09C33A268F11DBDB /* Build configuration list for PBXNativeTarget "Pods-AdsumReaderSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3168F14F634CC2AF0F8FF375E0EA3BCF /* Debug */,
-				6195472D206030DFE2DCBC1ABA72B801 /* Release */,
+				0612670E9F5C23E69E583CDC75BDB7D3 /* Debug */,
+				190F148BC533E3007120613A92C03D6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9F61C13B83FF6DB4377603FA5D0B5241 /* Build configuration list for PBXNativeTarget "Pods-AdsumReaderSwift" */ = {
+		B5CAC386AF33DFCD788B12DA4CEDFEED /* Build configuration list for PBXNativeTarget "SWXMLHash" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EFD7775DE172BA32D6719CA16C273302 /* Debug */,
-				AABA11B24044CE368F4DC704D12439E7 /* Release */,
+				1C98CAE9851A6469622519D0C81F1F68 /* Debug */,
+				BD530D5497889199EE9BB32567D7FC99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E047233D33459CDB56C593439785B702 /* Build configuration list for PBXNativeTarget "QRCodeReader.swift" */ = {
+		F4528E5AEF33D47C80613206AE168F97 /* Build configuration list for PBXNativeTarget "LUAutocompleteView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				10F28B04C953425060E1F98E2E36CCB9 /* Debug */,
-				27AD5B62FA6A1EEF5CEAF382C3AE008E /* Release */,
+				17832D654A5F3650F8B32CAB7DADFC83 /* Debug */,
+				1A5E6D2B367F3CC3062F7B290F7FAEEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

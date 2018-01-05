@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '42EB802DCE41799F193A9474C564F486'
-               BlueprintName = 'SWXMLHash'
+               BlueprintIdentifier = '5DEC2B99E1BDCCB27204D88B9E8746C1'
+               BlueprintName = 'LUAutocompleteView'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'SWXMLHash.framework'>
+               BuildableName = 'LUAutocompleteView.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

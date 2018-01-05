@@ -18,7 +18,7 @@ class InitialViewController: UIViewController, QRCodeReaderViewControllerDelegat
     var currentConfigXml = String()
     
     @IBOutlet weak var loadSavedMapButton: UIButton!
-    
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -124,7 +124,11 @@ class InitialViewController: UIViewController, QRCodeReaderViewControllerDelegat
     func reader(_ reader: QRCodeReaderViewController, didScanResult result: QRCodeReaderResult) {
         reader.stopScanning()
         dismiss(animated: true) {
-            print(result)
+            print("QR CODE: \(result)")
+            
+            if let bundleID = Bundle.main.bundleIdentifier {
+                UserDefaults.standard.removePersistentDomain(forName: bundleID)
+            }
             
             self.currentConfigXml = result.value
             let defaults = UserDefaults.standard
@@ -155,15 +159,5 @@ class InitialViewController: UIViewController, QRCodeReaderViewControllerDelegat
         
         dismiss(animated: true, completion: nil)
     }
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

@@ -25,6 +25,7 @@ FOUNDATION_EXPORT const unsigned char AdsumVersionString[];
 #import "ADSLabel.h"
 #import "ADSPicto.h"
 #import "ADSPoi.h"
+#import "ADSPlace.h"
 #import "ADSExhibitor.h"
 #import "ADSPerson.h"
 #import "ADSRoom.h"

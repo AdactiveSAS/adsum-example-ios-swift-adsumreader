@@ -11,6 +11,10 @@ import SWXMLHash
 import Adsum
 import ActionSheetPicker_3_0
 
+protocol PoiDelegate{
+    func updatePoi(pois: [ADSPoi])
+}
+
 
 
 class MapViewController: UIViewController, ADSMapDelegate, MapButtonsDelegate{
@@ -20,6 +24,11 @@ class MapViewController: UIViewController, ADSMapDelegate, MapButtonsDelegate{
     var dataManager: ADSDataManager?
     
     var floors:[String] = []
+    var poiDelegate : PoiDelegate?
+    var poisArray:[ADSPoi] = []
+    var placesArray:[ADSPlace] = []
+    
+   
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -47,7 +56,6 @@ class MapViewController: UIViewController, ADSMapDelegate, MapButtonsDelegate{
                         adsumConfigClass.kioskId = NSNumber(value:num);
                     }
                 }
-                
                 if let val = elem["WSURL"].element?.text{
                     adsumConfigClass.WSURL = val
                 }
@@ -78,6 +86,7 @@ class MapViewController: UIViewController, ADSMapDelegate, MapButtonsDelegate{
         options.site = adsumConfigClass.siteId
         options.device = adsumConfigClass.kioskId
         options.apiBaseUrl = "http://asia-api.adsum.io"
+        //issue here
 //        options.apiBaseUrl = adsumConfigClass.WSURL // this doesnt work.
         
         dataManager = ADSDataManager(adsOptions: options);
@@ -107,31 +116,75 @@ class MapViewController: UIViewController, ADSMapDelegate, MapButtonsDelegate{
             return
         }, cancel: { ActionStringCancelBlock in return }, origin: sender)
         
-        //mapView?.setCurrentFloor(levels?.first as! NSNumber);
+    }
+    
+    func findADSPlaceFromPoiName(poiName:String) -> ADSPlace?{
         
+        var placeId = NSNumber()
+        
+        for poi in poisArray {
+            if (poi.name == poiName){
+                placeId = poi.places.firstObject as! NSNumber
+            }
+        }
+        
+        for place in placesArray{
+            if (place.uid == placeId){
+                return place
+            }
+        }
+        
+        return nil
+    }
+    
+    func viewSite(sender: UIBarButtonItem){
+        self.mapView?.setSiteView()
     }
     
     
     func mapLoaded(){
-        print("Has the Map Loaded?");
         dataManager?.fetch({
             self.displayAllPois()
             self.getAllLevels()
+            self.displayAllPlaces()
         }, fail: { (_: [Error]?) in
             print("NO INTERNET CONNECTION")
         })
     }
     
     func displayAllPois(){
+        //obtain all pois
         if dataManager != nil {
+            
+            self.poisArray = [ADSPoi]()
+            
             for poi in (dataManager?.poiRepository.objects)! {
                 let myPoi:ADSPoi = poi as! ADSPoi
-                print(myPoi)
+                self.poisArray.append(myPoi)
             }
+            
+            poiDelegate?.updatePoi(pois: self.poisArray)
+        }
+    }
+    
+    func displayAllPlaces(){
+        //obtain all places.
+        if dataManager != nil {
+            self.placesArray = [ADSPlace]()
+            
+            for place in (dataManager?.placeRepository.objects)!{
+                let myPlace:ADSPlace = place as! ADSPlace
+                self.placesArray.append(myPlace)
+            }
+            
         }
     }
     
     func getAllLevels(){
+        
+        //obtain levels.
+        //Note: currently floors display as floor id
+        
         
         let buildings = mapView?.getBuildings();
         if let levels = mapView?.getFloorsWithBuilding(buildings?.first as! NSNumber){
@@ -141,12 +194,16 @@ class MapViewController: UIViewController, ADSMapDelegate, MapButtonsDelegate{
             }
         }
     }
-
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//
-//    }
-
+    
+    func drawPath(toPoiName: String, fromPoiName: String){
+        let poiTo = findADSPlaceFromPoiName(poiName: toPoiName)
+        let poiFrom = findADSPlaceFromPoiName(poiName: fromPoiName)
+        
+        //unable to check for whether path is already drawn.
+        //removePath causes a runtime error if path is not drawn.
+        
+        mapView?.setCurrentFloor(poiTo?.floorId)
+        mapView?.hightlightADSPlace(poiTo, with: UIColor.green, andBounce: 1)
+        mapView?.drawPath(from: poiFrom!, to: poiTo!, forPrm: false)
+    }
 }
