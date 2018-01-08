@@ -101,11 +101,18 @@ class MapViewController: UIViewController, ADSMapDelegate, MapButtonsDelegate{
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
+        
+        
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        //need to still clean up
+        mapView?.remove(self)
+        mapView = nil
     }
     
     func floorChangeButtonClicked(floor: Int, sender: UIBarButtonItem){
-        
-        print(self.floors)
         
         ActionSheetStringPicker.show(withTitle: "Please Select Floor", rows: self.floors, initialSelection: 0, doneBlock: {
             picker, index, value in

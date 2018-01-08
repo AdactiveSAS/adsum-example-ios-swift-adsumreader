@@ -22,7 +22,7 @@ class InitialViewController: UIViewController, QRCodeReaderViewControllerDelegat
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.navigationController?.setNavigationBarHidden(true, animated: false)
 //      for Testing Purposes - Remove before pr to master
 //        if let bundleID = Bundle.main.bundleIdentifier {
 //            UserDefaults.standard.removePersistentDomain(forName: bundleID)

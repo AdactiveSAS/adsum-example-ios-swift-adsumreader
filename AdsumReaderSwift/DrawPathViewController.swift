@@ -27,6 +27,8 @@ class DrawPathViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.navigationController?.setNavigationBarHidden(false, animated: false)
+        
         view.addSubview(autocompleteViewTo)
         autocompleteViewTo.textField = toPathTextField
         autocompleteViewTo.dataSource = self

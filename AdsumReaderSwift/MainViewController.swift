@@ -29,6 +29,7 @@ class MainViewController: UIViewController, PoiDelegate, DrawPathDelegate{
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.setNavigationBarHidden(false, animated: false)
         // Do any additional setup after loading the view.
     }
 
@@ -45,8 +46,11 @@ class MainViewController: UIViewController, PoiDelegate, DrawPathDelegate{
         
     }
     
-    
     @IBAction func homeButtonClicked(_ sender: UIBarButtonItem) {
+        self.navigationController?.popViewController(animated: true);
+    }
+    
+    @IBAction func resetButtonClicked(_ sender: UIBarButtonItem) {
         if (mapDelegate != nil){
             mapDelegate?.viewSite(sender: sender);
         }
