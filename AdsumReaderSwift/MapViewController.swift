@@ -33,8 +33,42 @@ class MapViewController: UIViewController, ADSMapDelegate, MapButtonsDelegate{
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let adsumConfigClass = parseXmlFromUserDefaults()
+        
+        
+        let options = ADSOptions()
+        options.apiKey = adsumConfigClass.APIKEY
+        options.site = adsumConfigClass.siteId
+        options.device = adsumConfigClass.kioskId
+        options.apiBaseUrl = adsumConfigClass.WSURL
+
+        dataManager = ADSDataManager(adsOptions: options);
+        mapView = AdsumCoreView(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height), adsDataManager: dataManager);
+        
+        mapView?.addAMapDelegate(self);
+        
+        self.view.addSubview(mapView!)
+
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        
+        
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        //need to still clean up
+        mapView?.remove(self)
+        mapView = nil
+    }
+    
+    func parseXmlFromUserDefaults() -> XmlConfigClass{
+        
         let adsumConfigClass = XmlConfigClass();
         let defaults = UserDefaults.standard
+        
         if let xmlToParse = defaults.string(forKey: CONFIG_KEY){
             
             //parse xml
@@ -57,7 +91,15 @@ class MapViewController: UIViewController, ADSMapDelegate, MapButtonsDelegate{
                     }
                 }
                 if let val = elem["WSURL"].element?.text{
-                    adsumConfigClass.WSURL = val
+                    
+                    let url = val
+                    
+                    //legacy issues for sdk v3
+                    let substring = "/1"
+                    let endIndex = url.range(of: substring)?.lowerBound
+                    
+                    //for sdk v4
+                    adsumConfigClass.WSURL = String(url[url.startIndex..<endIndex!])
                 }
                 
                 if let val = elem["APIKEY"].element?.text{
@@ -81,35 +123,7 @@ class MapViewController: UIViewController, ADSMapDelegate, MapButtonsDelegate{
             print("Nothing Saved in XML")
         }
         
-        let options = ADSOptions()
-        options.apiKey = adsumConfigClass.APIKEY
-        options.site = adsumConfigClass.siteId
-        options.device = adsumConfigClass.kioskId
-        options.apiBaseUrl = "http://asia-api.adsum.io"
-        //issue here
-        print(adsumConfigClass.WSURL)
-//        options.apiBaseUrl = adsumConfigClass.WSURL // this doesnt work.
-        
-        dataManager = ADSDataManager(adsOptions: options);
-        mapView = AdsumCoreView(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height), adsDataManager: dataManager);
-        
-        mapView?.addAMapDelegate(self);
-        
-        self.view.addSubview(mapView!)
-
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        
-        
-    }
-    
-    override func viewWillDisappear(_ animated: Bool) {
-        super.viewWillDisappear(animated)
-        //need to still clean up
-        mapView?.remove(self)
-        mapView = nil
+        return adsumConfigClass
     }
     
     func floorChangeButtonClicked(floor: Int, sender: UIBarButtonItem){

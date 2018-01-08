@@ -47,7 +47,25 @@ class MainViewController: UIViewController, PoiDelegate, DrawPathDelegate{
     }
     
     @IBAction func homeButtonClicked(_ sender: UIBarButtonItem) {
-        self.navigationController?.popViewController(animated: true);
+        
+        
+        let alertController = UIAlertController(title: "Warning", message: "Loading Another Map does not Work.", preferredStyle: .alert)
+        
+        let action1 = UIAlertAction(title: "Go to Menu Anyway", style: .destructive) { (action:UIAlertAction) in
+            self.navigationController?.popViewController(animated: true);
+        }
+        
+        let action2 = UIAlertAction(title: "Cancel", style: .default) { (action:UIAlertAction) in
+            print("You've pressed cancel");
+        }
+
+        
+        alertController.addAction(action1)
+        alertController.addAction(action2)
+        self.present(alertController, animated: true, completion: nil)
+
+        
+        
     }
     
     @IBAction func resetButtonClicked(_ sender: UIBarButtonItem) {
