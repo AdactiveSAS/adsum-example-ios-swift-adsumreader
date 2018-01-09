@@ -29,16 +29,16 @@ You need to run your project on a physical device
 ## Installation
 
 * Download our latest SDK from http://doc.adsum.io/index.php/adsum-ios-sdk-4-x/
-* Extract AdsumIOSAPI.framework in ```./AdsumReaderSwift/```
+* Extract Adsum.framework in ```./AdsumReaderSwift/```
 * You will need to run ```pod install``` (see https://cocoapods.org/)
 * Open AdsumReaderSwift.xcworkspace
 
 ## Screenshot
 
 <div align="center" style="border:1px solid black">
-     <img width="33%" src="/screenshot.jpeg" alt="Menu Screenshot" title="Menu Screenshot"</img>
-     <img width="4px"></img>
-     <img width="33%" src="/siteScreenshot.jpeg" alt="Site Screenshot" title="Site Screenshot"</img>
-     <img width="4px"></img>
-    <img width="33%" src="/qrcodeScreenshot.png" alt="Site Screenshot" title="Site Screenshot"</img>
+     <img width="40%" src="/screenshot.jpeg" alt="Menu Screenshot" title="Menu Screenshot"</img>
+     <img width="8px"></img>
+     <img width="40%" src="/siteScreenshot.jpeg" alt="Site Screenshot" title="Site Screenshot"</img>
+     <img width="8px"></img>
+    <img width="40%" src="/qrcodeScreenshot.png" alt="QR Screenshot" title="QR Screenshot"</img>
 </div>
