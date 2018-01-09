@@ -21,6 +21,7 @@ class MainViewController: UIViewController, PoiDelegate, DrawPathDelegate{
     
     @IBOutlet weak var mapContainerView: UIView!
     @IBOutlet weak var cameraButton: UIBarButtonItem!
+    @IBOutlet weak var pathButton: UIBarButtonItem!
     
     
     var mapDelegate : MapButtonsDelegate?
@@ -29,6 +30,10 @@ class MainViewController: UIViewController, PoiDelegate, DrawPathDelegate{
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //turn off path button until element is enabled.
+        pathButton.isEnabled = false
+        
         self.navigationController?.setNavigationBarHidden(false, animated: false)
         // Do any additional setup after loading the view.
     }
@@ -78,6 +83,7 @@ class MainViewController: UIViewController, PoiDelegate, DrawPathDelegate{
     }
     
     func updatePoi(pois: [ADSPoi]){
+        pathButton.isEnabled = true
         elements = pois.map({$0.name})
         print("poi updated")
     }

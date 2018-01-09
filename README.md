@@ -36,7 +36,9 @@ You need to run your project on a physical device
 ## Screenshot
 
 <div align="center" style="border:1px solid black">
-     <img width="40%" src="/screenshot.jpeg" alt="Menu Screenshot" title="Menu Screenshot"</img>
-     <img width="8px"></img>
-     <img width="40%" src="/siteScreenshot.jpeg" alt="Site Screenshot" title="Site Screenshot"</img>
+     <img width="33%" src="/screenshot.jpeg" alt="Menu Screenshot" title="Menu Screenshot"</img>
+     <img width="4px"></img>
+     <img width="33%" src="/siteScreenshot.jpeg" alt="Site Screenshot" title="Site Screenshot"</img>
+     <img width="4px"></img>
+    <img width="33%" src="/qrcodeScreenshot.png" alt="Site Screenshot" title="Site Screenshot"</img>
 </div>

@@ -14,7 +14,7 @@ class ViewController: UIViewController, ADSMapDelegate {
     var mapView : AdsumCoreView?
     var dataManager: ADSDataManager?
     
-    //swift example of using mapview
+    //swift example of using mapview for sdk v4
     
     override func viewDidLoad() {
         super.viewDidLoad()

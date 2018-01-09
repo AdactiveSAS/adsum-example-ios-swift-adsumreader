@@ -73,9 +73,6 @@ class DrawPathViewController: UIViewController {
             return
         }
         
-        self.drawPathDelegate?.displayPath(toPoiName: toPathPoi, fromPoiName: fromPathPoi)
-        self.navigationController?.popViewController(animated: true);
-        
     }
     
     //cancel and go back to previous screen

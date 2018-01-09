@@ -60,8 +60,6 @@ class MapViewController: UIViewController, ADSMapDelegate, MapButtonsDelegate{
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         //need to still clean up
-        mapView?.remove(self)
-        mapView = nil
     }
     
     func parseXmlFromUserDefaults() -> XmlConfigClass{
@@ -130,7 +128,7 @@ class MapViewController: UIViewController, ADSMapDelegate, MapButtonsDelegate{
         
         ActionSheetStringPicker.show(withTitle: "Please Select Floor", rows: self.floors, initialSelection: 0, doneBlock: {
             picker, index, value in
-
+            
             if let selectedFloorInt = Int((value as? String)!) {
                self.mapView?.setCurrentFloor(NSNumber(value:selectedFloorInt));
             }

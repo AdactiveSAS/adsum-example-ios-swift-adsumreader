@@ -162,6 +162,7 @@
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="mapContainerView" destination="hEs-hl-wlr" id="u1P-6h-Uog"/>
+                        <outlet property="pathButton" destination="GXS-YC-a39" id="T9v-5s-xCs"/>
                         <outlet property="searchDestinationTextField" destination="mx4-Nz-0NQ" id="elA-Xn-SAJ"/>
                         <outlet property="searchPoiTextField" destination="8vE-Ve-7AK" id="rmk-lV-Vo3"/>
                     </connections>
