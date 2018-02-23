@@ -44,10 +44,11 @@
                                 <rect key="frame" x="16" y="64" width="343" height="175"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HGM-95-hlJ">
-                                <rect key="frame" x="16" y="316.5" width="343" height="33"/>
+                                <rect key="frame" x="16" y="295" width="343" height="77"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
                                 <state key="normal" title="Load a Previously Saved Map">
                                     <color key="titleColor" red="0.16862745100000001" green="0.16862745100000001" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="loadPreviouslySavedMap:" destination="mye-Yq-k6J" eventType="touchUpInside" id="dlj-X8-nYs"/>
@@ -55,10 +56,14 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dx1-v6-Ygp">
-                                <rect key="frame" x="16" y="396.5" width="343" height="28.5"/>
+                                <rect key="frame" x="16" y="441" width="343" height="68"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="68" id="Wwd-Zr-u69"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
                                 <state key="normal" title="Scan and Load a New Map">
                                     <color key="titleColor" red="0.16862745100000001" green="0.16862745100000001" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="loadQRCodeScanner:" destination="mye-Yq-k6J" eventType="touchUpInside" id="9dH-O6-Wlr"/>
@@ -69,15 +74,15 @@
                         <constraints>
                             <constraint firstItem="2Dt-VM-fGN" firstAttribute="top" secondItem="SgM-if-JYX" secondAttribute="top" id="AsC-T0-sCv"/>
                             <constraint firstItem="2Dt-VM-fGN" firstAttribute="leading" secondItem="6TH-OG-FLf" secondAttribute="leadingMargin" id="Atm-ta-U7C"/>
+                            <constraint firstItem="dx1-v6-Ygp" firstAttribute="trailing" secondItem="2Dt-VM-fGN" secondAttribute="trailing" id="Bso-A9-52W"/>
                             <constraint firstItem="SgM-if-JYX" firstAttribute="bottom" secondItem="2Dt-VM-fGN" secondAttribute="bottom" constant="428" id="Iyo-ML-PRr"/>
-                            <constraint firstItem="HGM-95-hlJ" firstAttribute="leading" secondItem="dx1-v6-Ygp" secondAttribute="leading" id="Nll-Lr-eTO"/>
-                            <constraint firstItem="SgM-if-JYX" firstAttribute="bottom" secondItem="dx1-v6-Ygp" secondAttribute="bottom" constant="242" id="PwM-dE-re3"/>
+                            <constraint firstItem="HGM-95-hlJ" firstAttribute="top" secondItem="2Dt-VM-fGN" secondAttribute="bottom" constant="56" id="Mx3-kQ-0ZH"/>
                             <constraint firstItem="2Dt-VM-fGN" firstAttribute="trailing" secondItem="6TH-OG-FLf" secondAttribute="trailingMargin" id="QDt-fI-tg8"/>
-                            <constraint firstItem="HGM-95-hlJ" firstAttribute="trailing" secondItem="dx1-v6-Ygp" secondAttribute="trailing" id="VTu-dt-Y86"/>
-                            <constraint firstItem="dx1-v6-Ygp" firstAttribute="leading" secondItem="2Dt-VM-fGN" secondAttribute="leading" id="Za3-fj-I6B"/>
-                            <constraint firstItem="dx1-v6-Ygp" firstAttribute="top" secondItem="HGM-95-hlJ" secondAttribute="bottom" constant="47" id="cG5-Fe-xyR"/>
-                            <constraint firstItem="dx1-v6-Ygp" firstAttribute="trailing" secondItem="2Dt-VM-fGN" secondAttribute="trailing" id="czT-l0-whf"/>
-                            <constraint firstItem="HGM-95-hlJ" firstAttribute="centerY" secondItem="6TH-OG-FLf" secondAttribute="centerY" id="sHE-GR-1XV"/>
+                            <constraint firstItem="dx1-v6-Ygp" firstAttribute="leading" secondItem="2Dt-VM-fGN" secondAttribute="leading" id="c5d-KK-XeI"/>
+                            <constraint firstItem="SgM-if-JYX" firstAttribute="bottom" secondItem="dx1-v6-Ygp" secondAttribute="bottom" constant="158" id="kmk-fk-mEb"/>
+                            <constraint firstItem="dx1-v6-Ygp" firstAttribute="trailing" secondItem="HGM-95-hlJ" secondAttribute="trailing" id="nsQ-W3-0wx"/>
+                            <constraint firstItem="dx1-v6-Ygp" firstAttribute="top" secondItem="HGM-95-hlJ" secondAttribute="bottom" constant="69" id="sLp-a1-AAz"/>
+                            <constraint firstItem="dx1-v6-Ygp" firstAttribute="leading" secondItem="HGM-95-hlJ" secondAttribute="leading" id="wvn-3e-tHi"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="SgM-if-JYX"/>
                     </view>
@@ -90,7 +95,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EfF-6b-XKH" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="a8k-W2-eOJ" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2108" y="72"/>
+            <point key="canvasLocation" x="2108" y="71.514242878560722"/>
         </scene>
         <!--Main View Controller-->
         <scene sceneID="qnP-P1-VKd">
@@ -161,6 +166,7 @@
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="floorChangeButton" destination="PRl-GZ-qX8" id="FmD-w3-PbW"/>
                         <outlet property="mapContainerView" destination="hEs-hl-wlr" id="u1P-6h-Uog"/>
                         <outlet property="pathButton" destination="GXS-YC-a39" id="T9v-5s-xCs"/>
                         <outlet property="searchDestinationTextField" destination="mx4-Nz-0NQ" id="elA-Xn-SAJ"/>

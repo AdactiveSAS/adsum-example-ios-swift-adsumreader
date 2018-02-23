@@ -22,6 +22,7 @@ class MainViewController: UIViewController, PoiDelegate, DrawPathDelegate{
     @IBOutlet weak var mapContainerView: UIView!
     @IBOutlet weak var cameraButton: UIBarButtonItem!
     @IBOutlet weak var pathButton: UIBarButtonItem!
+    @IBOutlet var floorChangeButton: UIBarButtonItem!
     
     
     var mapDelegate : MapButtonsDelegate?
@@ -33,6 +34,8 @@ class MainViewController: UIViewController, PoiDelegate, DrawPathDelegate{
         
         //turn off path button until element is enabled.
         pathButton.isEnabled = false
+        
+        floorChangeButton.isEnabled = false
         
         self.navigationController?.setNavigationBarHidden(false, animated: false)
         // Do any additional setup after loading the view.
@@ -48,7 +51,6 @@ class MainViewController: UIViewController, PoiDelegate, DrawPathDelegate{
         if (mapDelegate != nil){
             mapDelegate?.floorChangeButtonClicked(floor: 1, sender: sender);
         }
-        
     }
     
     @IBAction func homeButtonClicked(_ sender: UIBarButtonItem) {
@@ -73,6 +75,10 @@ class MainViewController: UIViewController, PoiDelegate, DrawPathDelegate{
         
     }
     
+    override func viewDidDisappear(_ animated: Bool) {
+        self.mapDelegate = nil
+    }
+    
     @IBAction func resetButtonClicked(_ sender: UIBarButtonItem) {
         if (mapDelegate != nil){
             mapDelegate?.viewSite(sender: sender);
@@ -84,6 +90,7 @@ class MainViewController: UIViewController, PoiDelegate, DrawPathDelegate{
     
     func updatePoi(pois: [ADSPoi]){
         pathButton.isEnabled = true
+        floorChangeButton.isEnabled = true
         elements = pois.map({$0.name})
         print("poi updated")
     }

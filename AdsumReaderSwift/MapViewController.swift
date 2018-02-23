@@ -200,6 +200,10 @@ class MapViewController: UIViewController, ADSMapDelegate, MapButtonsDelegate{
         }
     }
     
+    override func viewDidDisappear(_ animated: Bool) {
+        mapView = nil
+    }
+    
     func getAllLevels(){
         
         //obtain levels.
